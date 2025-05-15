@@ -1,0 +1,410 @@
+[
+  {
+    "id": "1809.00832v1_q0",
+    "ques": "What is the throughput on inference using fold’s folding technique on batch size of 10?",
+    "ans": "52.2",
+    "prediction": "37.5"
+  },
+  {
+    "id": "1809.00832v1_q1",
+    "ques": "What is the highest throughput during training?",
+    "ans": "61.6",
+    "prediction": "54.7"
+  },
+  {
+    "id": "1809.00832v1_q2",
+    "ques": "What is the difference between highest and lowest throughput observed?",
+    "ans": "52.6",
+    "prediction": "267.4"
+  },
+  {
+    "id": "1809.00832v1_q0",
+    "ques": "What is the throughput using linear datasets on batch size of 10?",
+    "ans": "22.7",
+    "prediction": "78.2"
+  },
+  {
+    "id": "1809.00832v1_q3",
+    "ques": "What is the sum of least and highest throughput observed?",
+    "ans": "137.3",
+    "prediction": "137"
+  },
+  {
+    "id": "1805.11461v1_q0",
+    "ques": "What is the F1 score obtained for SB representation with default values?",
+    "ans": "73.34",
+    "prediction": "75.05"
+  },
+  {
+    "id": "1805.11461v1_q1",
+    "ques": "What is the difference in F1 score with optimal and default values for SB representation?",
+    "ans": "2.22",
+    "prediction": "5.05"
+  },
+  {
+    "id": "1704.06104v2_q0",
+    "ques": "What is the C-F1 under 50% column for y-3:yc-1?",
+    "ans": "66.84",
+    "prediction": "54.71"
+  },
+  {
+    "id": "1704.06104v2_q1",
+    "ques": "What is the R-F1 under 100% column for y-3:yc-3?",
+    "ans": "30.22",
+    "prediction": "38.90"
+  },
+  {
+    "id": "1704.06104v2_q2",
+    "ques": "What is the highest C-F1 under 50% column observed?",
+    "ans": "67.84",
+    "prediction": "49.59"
+  },
+  {
+    "id": "1704.06104v2_q0",
+    "ques": "What is the C-F1 under 50% column for paragraph level on MST-Parser?",
+    "ans": "6.90",
+    "prediction": "0"
+  },
+  {
+    "id": "1704.06104v2_q1",
+    "ques": "What is the R-F1 under 100% column for essay level on LSTM-ER?",
+    "ans": "29.56",
+    "prediction": "61.67"
+  },
+  {
+    "id": "1704.06104v2_q2",
+    "ques": "What is the highest C-F1 under 50% column for paragraph level observed?",
+    "ans": "77.19",
+    "prediction": "45.19"
+  },
+  {
+    "id": "1704.06104v2_q3",
+    "ques": "What is the highest F1 value for essay level observed?",
+    "ans": "50.51",
+    "prediction": "77.19"
+  },
+  {
+    "id": "1911.03905v1_q1",
+    "ques": "What is the highest SER value observed?",
+    "ans": "35.03",
+    "prediction": "37.99"
+  },
+  {
+    "id": "1911.03905v1_q2",
+    "ques": "What is the METEOR value for the TGen+ system and trained on the cleaned missing dataset?",
+    "ans": "37.94",
+    "prediction": "41.56"
+  },
+  {
+    "id": "1911.03905v1_q3",
+    "ques": "What is the least CIDEr value observed?",
+    "ans": "0.3855",
+    "prediction": "39.29"
+  },
+  {
+    "id": "1911.03905v1_q1",
+    "ques": "What is the difference of MRs in the cleaned and original dataset?",
+    "ans": "3500",
+    "prediction": "4,813"
+  },
+  {
+    "id": "1911.03905v1_q1",
+    "ques": "What is the highest SER value observed?",
+    "ans": "31.51",
+    "prediction": null
+  },
+  {
+    "id": "1911.03905v1_q2",
+    "ques": "What is the METEOR value for the TGen+ system and trained on the cleaned missing dataset?",
+    "ans": "44.84",
+    "prediction": "2.2018"
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "ques": "What is the B score of the single DCGCN model?",
+    "ans": "27.9",
+    "prediction": "**27"
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "ques": "What is the difference of BLEU scores of above models?",
+    "ans": "1",
+    "prediction": null
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "ques": "What is the highest C value observed?",
+    "ans": "55.4",
+    "prediction": null
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "ques": "Removing dense connections in 3rd and 4th block results in what C value?",
+    "ans": "54.1",
+    "prediction": "53.1"
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "ques": "What is the WC value for Glorot initialization?",
+    "ans": "57.0",
+    "prediction": "81.3"
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "ques": "On how many tasks does Glorot initialization have highest performance?",
+    "ans": "2",
+    "prediction": null
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "ques": "What is the WC value for H-CMOW method for 400 dimensional word embedding?",
+    "ans": "38.2",
+    "prediction": "32.3"
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "ques": "What is the highest WC value observed?",
+    "ans": "89.5",
+    "prediction": "35.1"
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "ques": "What is the SICK-R value for CMOW method for 784 dimensional word embedding?",
+    "ans": "76.2",
+    "prediction": null
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "ques": "What is the STS16 score for the CMOW model?",
+    "ans": "52.2",
+    "prediction": "49.7"
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "ques": "What is the SICK-R value for Glorot initialization?",
+    "ans": "73.6",
+    "prediction": "38.2"
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "ques": "On how many tasks does our paper initialization have highest performance?",
+    "ans": "7",
+    "prediction": null
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "ques": "What is the STS16 value for the CMOW-C method?",
+    "ans": "41.6",
+    "prediction": "27.6"
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "ques": "What is the value observed in the above question?",
+    "ans": "43.5",
+    "prediction": "63.7"
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "ques": "What is the WC value for CMOW-R method?",
+    "ans": "72.9",
+    "prediction": "35.1"
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "ques": "What is the highest SOMO value observed?",
+    "ans": "50.7",
+    "prediction": null
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "ques": "On how many linguistic probing tasks does CBOW-R perform better than CBOW-C?",
+    "ans": "3",
+    "prediction": null
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "ques": "What is the SICK-E value for the CMOW-R method?",
+    "ans": "77.2",
+    "prediction": "56.5"
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "ques": "What is the highest MPQA value observed?",
+    "ans": "87.5",
+    "prediction": "79.3"
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "ques": "On how many supervised downstream tasks does CMOW-C perform better than CMOW-R?",
+    "ans": "1",
+    "prediction": null
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "ques": "On how many supervised downstream tasks does CBOW-R perform better than CBOW-C?",
+    "ans": "5",
+    "prediction": null
+  },
+  {
+    "id": "1905.07189v2_q0",
+    "ques": "What is the value of MISC under the In E+ setting for MIL system?",
+    "ans": "53.61",
+    "prediction": "27.60"
+  },
+  {
+    "id": "1905.07189v2_q2",
+    "ques": "What is the value of ORG under the All setting for the MIL-ND system?",
+    "ans": "77.15",
+    "prediction": "92.47"
+  },
+  {
+    "id": "1909.00352v1_q0",
+    "ques": "When the premise is generated, what is the CON value for the S2S model?",
+    "ans": "11.17",
+    "prediction": "12.75"
+  },
+  {
+    "id": "1909.00352v1_q3",
+    "ques": "What is the lowest contradiction average percentage, when premise is generated?",
+    "ans": "8.09",
+    "prediction": "8"
+  },
+  {
+    "id": "1801.07772v1_q0",
+    "ques": "What is the POS tagging accuracy for Ar language?",
+    "ans": "88.7",
+    "prediction": "undetermined based on the provided data"
+  },
+  {
+    "id": "1801.07772v1_q1",
+    "ques": "What is the SEM tagging accuracy for Es language?",
+    "ans": "86.1",
+    "prediction": "85.0"
+  },
+  {
+    "id": "1801.07772v1_q2",
+    "ques": "What is the highest SEM tagging accuracy for the En language?",
+    "ans": "84.5",
+    "prediction": "88.3"
+  },
+  {
+    "id": "1801.07772v1_q3",
+    "ques": "What is the SEM tagging accuracy for the 3rd encoding layer for Zh language?",
+    "ans": "87.3",
+    "prediction": "87.9"
+  },
+  {
+    "id": "1801.07772v1_q0",
+    "ques": "What is the POS tagging accuracy for 2nd layer Unidirectional NMT encoder?",
+    "ans": "91.7",
+    "prediction": "93"
+  },
+  {
+    "id": "1801.07772v1_q3",
+    "ques": "What is the SEM value under column name 3 for row name Bi?",
+    "ans": "91.9",
+    "prediction": "91.3"
+  },
+  {
+    "id": "1808.06640v2_q0",
+    "ques": "What is the difference between the attacker score and the corresponding adversary’s accuracy for DIAL data sentiment Task?",
+    "ans": "12.2",
+    "prediction": "\"No attacker score provided\""
+  },
+  {
+    "id": "1808.06640v2_q2",
+    "ques": "For PAN16 data, mention task, what is the highest ∆?",
+    "ans": "9.7",
+    "prediction": "8.1"
+  },
+  {
+    "id": "1808.06640v2_q1",
+    "ques": "For DIAL data what is the highest accuracy achieved?",
+    "ans": "83.9",
+    "prediction": "81.2"
+  },
+  {
+    "id": "1808.06640v2_q2",
+    "ques": "For the PAN16 data, age task what is the accuracy achieved?",
+    "ans": "64.8",
+    "prediction": "not available or applicable"
+  },
+  {
+    "id": "1808.06640v2_q0",
+    "ques": "For DIAL data what is the balanced task acc?",
+    "ans": "67.4",
+    "prediction": null
+  },
+  {
+    "id": "1808.06640v2_q3",
+    "ques": "What is the highest unbalanced task acc value?",
+    "ans": "86.0",
+    "prediction": "81.2"
+  },
+  {
+    "id": "1808.06640v2_q0",
+    "ques": "What is the highest difference between the attacker score and the corresponding adversary’s accuracy?",
+    "ans": "9.2",
+    "prediction": "7.0"
+  },
+  {
+    "id": "1808.06640v2_q1",
+    "ques": "What is the least task acc value observed?",
+    "ans": "64.7",
+    "prediction": "56.0"
+  },
+  {
+    "id": "1808.06640v2_q3",
+    "ques": "What is the leakage value for mention task under DIAL data?",
+    "ans": "63.1",
+    "prediction": "5.0"
+  },
+  {
+    "id": "1808.06640v2_q0",
+    "ques": "What is the value of RNN row and guarded embedding column?",
+    "ans": "67.8",
+    "prediction": "54.8"
+  },
+  {
+    "id": "1905.13324v1_q0",
+    "ques": "What is the test perplexity on the PTB language modeling task under finetune column for ATR model?",
+    "ans": "65.86",
+    "prediction": "75.36"
+  },
+  {
+    "id": "1905.13324v1_q1",
+    "ques": "What is the test perplexity on the WT2 language modeling task under dynamic column for SRU model?",
+    "ans": "57.97",
+    "prediction": "85.15"
+  },
+  {
+    "id": "1905.13324v1_q0",
+    "ques": "What is the test accuracy for the layer normalization model, under the time column for GRU?",
+    "ans": "0.419",
+    "prediction": "90.10"
+  },
+  {
+    "id": "1905.13324v1_q1",
+    "ques": "What is the test accuracy for the BERT model, under the ACC column for SRU?",
+    "ans": "89.98",
+    "prediction": "90.09"
+  },
+  {
+    "id": "1905.13324v1_q1",
+    "ques": "What is the test error for the AmaFull model, under the ERR column for ATR?",
+    "ans": "38.54",
+    "prediction": "0.867"
+  },
+  {
+    "id": "1905.13324v1_q2",
+    "ques": "What is the least test error for the Yahoo model under the ERR column?",
+    "ans": "24.62",
+    "prediction": "0.731"
+  },
+  {
+    "id": "1905.13324v1_q2",
+    "ques": "What is the least time per training batch measured from 0.2k training steps on Tesla P100?",
+    "ans": "0.99",
+    "prediction": "0"
+  }
+]

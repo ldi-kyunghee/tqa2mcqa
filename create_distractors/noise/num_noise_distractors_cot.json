@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "1809.00832v1_q0",
+    "question": "What is the throughput on inference using fold’s folding technique on batch size of 10?",
+    "ground_truth": "52.2",
+    "noise_distractors": [
+      41.71,
+      61.3,
+      54.43
+    ]
+  },
+  {
+    "id": "1809.00832v1_q1",
+    "question": "What is the highest throughput during training?",
+    "ground_truth": "61.6",
+    "noise_distractors": [
+      67.36,
+      67.63,
+      52.32
+    ]
+  },
+  {
+    "id": "1809.00832v1_q2",
+    "question": "What is the difference between highest and lowest throughput observed?",
+    "ground_truth": "52.6",
+    "noise_distractors": [
+      56.94,
+      57.29,
+      44.99
+    ]
+  },
+  {
+    "id": "1809.00832v1_q0",
+    "question": "What is the throughput using linear datasets on batch size of 10?",
+    "ground_truth": "22.7",
+    "noise_distractors": [
+      19.14,
+      22.79,
+      22.14
+    ]
+  },
+  {
+    "id": "1809.00832v1_q1",
+    "question": "What is the highest throughput observed?",
+    "ground_truth": "129.7",
+    "noise_distractors": [
+      128.35,
+      115.99,
+      117.86
+    ]
+  },
+  {
+    "id": "1809.00832v1_q3",
+    "question": "What is the sum of least and highest throughput observed?",
+    "ground_truth": "137.3",
+    "noise_distractors": [
+      130.34,
+      149.53,
+      142.08
+    ]
+  },
+  {
+    "id": "1805.11461v1_q0",
+    "question": "What is the F1 score obtained for SB representation with default values?",
+    "ground_truth": "73.34",
+    "noise_distractors": [
+      73.11,
+      66.38,
+      78.86
+    ]
+  },
+  {
+    "id": "1805.11461v1_q1",
+    "question": "What is the difference in F1 score with optimal and default values for SB representation?",
+    "ground_truth": "2.22",
+    "noise_distractors": [
+      2.34,
+      2.28,
+      2.65
+    ]
+  },
+  {
+    "id": "1805.11461v1_q3",
+    "question": "What is the diff value for RESULT relation type?",
+    "ground_truth": "+27.23",
+    "noise_distractors": [
+      25.14,
+      26.18,
+      29.03
+    ]
+  },
+  {
+    "id": "1704.06104v2_q0",
+    "question": "What is the C-F1 under 50% column for y-3:yc-1?",
+    "ground_truth": "66.84",
+    "noise_distractors": [
+      65.75,
+      77.71,
+      62.07
+    ]
+  },
+  {
+    "id": "1704.06104v2_q1",
+    "question": "What is the R-F1 under 100% column for y-3:yc-3?",
+    "ground_truth": "30.22",
+    "noise_distractors": [
+      26.74,
+      34.32,
+      26.68
+    ]
+  },
+  {
+    "id": "1704.06104v2_q2",
+    "question": "What is the highest C-F1 under 50% column observed?",
+    "ground_truth": "67.84",
+    "noise_distractors": [
+      58.67,
+      51.78,
+      60.57
+    ]
+  },
+  {
+    "id": "1704.06104v2_q3",
+    "question": "What is the least F1 under 100% column observed?",
+    "ground_truth": "34.35",
+    "noise_distractors": [
+      40.74,
+      34.63,
+      38.2
+    ]
+  },
+  {
+    "id": "1704.06104v2_q0",
+    "question": "What is the C-F1 under 50% column for paragraph level on MST-Parser?",
+    "ground_truth": "6.90",
+    "noise_distractors": [
+      6.71,
+      6.83,
+      7.18
+    ]
+  },
+  {
+    "id": "1704.06104v2_q1",
+    "question": "What is the R-F1 under 100% column for essay level on LSTM-ER?",
+    "ground_truth": "29.56",
+    "noise_distractors": [
+      32.75,
+      26.37,
+      30.48
+    ]
+  },
+  {
+    "id": "1704.06104v2_q2",
+    "question": "What is the highest C-F1 under 50% column for paragraph level observed?",
+    "ground_truth": "77.19",
+    "noise_distractors": [
+      80.77,
+      75.8,
+      83.56
+    ]
+  },
+  {
+    "id": "1704.06104v2_q3",
+    "question": "What is the highest F1 value for essay level observed?",
+    "ground_truth": "50.51",
+    "noise_distractors": [
+      49.72,
+      50.46,
+      46.72
+    ]
+  },
+  {
+    "id": "1911.03905v1_q0",
+    "question": "What is the BLEU value for the TGen- system and trained on the original dataset?",
+    "ground_truth": "63.37",
+    "noise_distractors": [
+      31.78,
+      38.59,
+      39.52
+    ]
+  },
+  {
+    "id": "1911.03905v1_q1",
+    "question": "What is the highest SER value observed?",
+    "ground_truth": "31.51",
+    "noise_distractors": [
+      32.0,
+      34.4,
+      42.24
+    ]
+  },
+  {
+    "id": "1911.03905v1_q2",
+    "question": "What is the METEOR value for the TGen+ system and trained on the cleaned missing dataset?",
+    "ground_truth": "44.84",
+    "noise_distractors": [
+      33.95,
+      38.46,
+      39.57
+    ]
+  },
+  {
+    "id": "1911.03905v1_q3",
+    "question": "What is the least CIDEr value observed?",
+    "ground_truth": "0.3855",
+    "noise_distractors": [
+      0.36,
+      0.39,
+      0.43
+    ]
+  },
+  {
+    "id": "1911.03905v1_q0",
+    "question": "What is the SER(%) for the original dataset DEV part?",
+    "ground_truth": "11.42",
+    "noise_distractors": [
+      9.95,
+      11.67,
+      12.23
+    ]
+  },
+  {
+    "id": "1911.03905v1_q1",
+    "question": "What is the difference of MRs in the cleaned and original dataset?",
+    "ground_truth": "3500",
+    "noise_distractors": [
+      3168.27,
+      4129.69,
+      3470.03
+    ]
+  },
+  {
+    "id": "1911.03905v1_q2",
+    "question": "What is the highest SER(%) obtained?",
+    "ground_truth": "17.69",
+    "noise_distractors": [
+      17.39,
+      18.41,
+      17.46
+    ]
+  },
+  {
+    "id": "1911.03905v1_q0",
+    "question": "What is the BLEU value for the TGen- system and trained on the original dataset?",
+    "ground_truth": "63.37",
+    "noise_distractors": [
+      64.88,
+      60.34,
+      61.57
+    ]
+  },
+  {
+    "id": "1911.03905v1_q1",
+    "question": "What is the highest SER value observed?",
+    "ground_truth": "31.51",
+    "noise_distractors": [
+      38.57,
+      27.87,
+      30.69
+    ]
+  },
+  {
+    "id": "1911.03905v1_q2",
+    "question": "What is the METEOR value for the TGen+ system and trained on the cleaned missing dataset?",
+    "ground_truth": "44.84",
+    "noise_distractors": [
+      34.36,
+      36.16,
+      44.6
+    ]
+  },
+  {
+    "id": "1911.03905v1_q0",
+    "question": "What is the disfluency for original training data?",
+    "ground_truth": "14",
+    "noise_distractors": [
+      13.77,
+      13.98,
+      13.74
+    ]
+  },
+  {
+    "id": "1911.03905v1_q2",
+    "question": "What is the difference between disfluency values of cleaned added and cleaned training data?",
+    "ground_truth": "9",
+    "noise_distractors": [
+      9.88,
+      9.52,
+      7.55
+    ]
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "question": "What is the BLEU score of the DCGCN ensemble model without external data?",
+    "ground_truth": "28.2",
+    "noise_distractors": [
+      24.06,
+      29.73,
+      30.07
+    ]
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "question": "What is the BLEU score of the DCGCN single model trained with 0.1M extra parameters?",
+    "ground_truth": "29.0",
+    "noise_distractors": [
+      26.17,
+      28.7,
+      29.29
+    ]
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "question": "What is the C score of the single Seq2SeqB model?",
+    "ground_truth": "49.1",
+    "noise_distractors": [
+      43.53,
+      54.85,
+      55.6
+    ]
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "question": "What is the difference between the C score of our ensemble model and GGNN2Seq ensemble model?",
+    "ground_truth": "6.1",
+    "noise_distractors": [
+      5.88,
+      5.86,
+      6.25
+    ]
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "question": "What is the B score of the single DCGCN model?",
+    "ground_truth": "27.9",
+    "noise_distractors": [
+      26.18,
+      27.6,
+      31.67
+    ]
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "question": "What is the B score of the single BoW+GCN model for English-German translation tasks?",
+    "ground_truth": "12.2",
+    "noise_distractors": [
+      10.83,
+      11.44,
+      14.91
+    ]
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "question": "What is the difference of BLEU points between the best single GCN based model and our single model for EnCs task?",
+    "ground_truth": "2.5",
+    "noise_distractors": [
+      2.73,
+      2.18,
+      2.6
+    ]
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "question": "What is the BLEU value for one block DCGCN n=1,m=2",
+    "ground_truth": "19.2",
+    "noise_distractors": [
+      18.9,
+      18.56,
+      21.68
+    ]
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "question": "How many layered GCN+RC+LA gives the highest BLEU score?",
+    "ground_truth": "9",
+    "noise_distractors": [
+      9.35,
+      9.98,
+      7.21
+    ]
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "question": "How many layered GCN+RC+LA gives the highest C score?",
+    "ground_truth": "10",
+    "noise_distractors": [
+      9.59,
+      10.9,
+      11.29
+    ]
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "question": "What is the BLEU score of the GCN+RC(6) model?",
+    "ground_truth": "19.9",
+    "noise_distractors": [
+      18.32,
+      18.78,
+      21.18
+    ]
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "question": "What is the difference of BLEU scores of above models?",
+    "ground_truth": "1",
+    "noise_distractors": [
+      0.92,
+      1.08,
+      1.01
+    ]
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "question": "What is the highest C value observed?",
+    "ground_truth": "55.4",
+    "noise_distractors": [
+      59.5,
+      52.7,
+      54.62
+    ]
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "question": "What is the BLEU value for the DCGCN4 model?",
+    "ground_truth": "25.5",
+    "noise_distractors": [
+      26.71,
+      27.11,
+      28.65
+    ]
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "question": "Removing dense connections in 3rd and 4th block results in what C value?",
+    "ground_truth": "54.1",
+    "noise_distractors": [
+      66.34,
+      59.43,
+      47.54
+    ]
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "question": "What is the difference in C score of the DCGCN4 model and the -{4} dense block model?",
+    "ground_truth": "0.5",
+    "noise_distractors": [
+      0.43,
+      0.47,
+      0.42
+    ]
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "question": "What is the BLEU score for encoder modules linear combination?",
+    "ground_truth": "23.7",
+    "noise_distractors": [
+      24.68,
+      25.04,
+      26.15
+    ]
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "question": "What is the C value for Decoder modules coverage mechanism?",
+    "ground_truth": "53.0",
+    "noise_distractors": [
+      56.47,
+      41.18,
+      59.21
+    ]
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "question": "What is the highest C value observed?",
+    "ground_truth": "55.4",
+    "noise_distractors": [
+      50.81,
+      59.61,
+      62.35
+    ]
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the WC value for Glorot initialization?",
+    "ground_truth": "57.0",
+    "noise_distractors": [
+      50.58,
+      61.07,
+      62.78
+    ]
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "question": "On how many tasks does Glorot initialization have highest performance?",
+    "ground_truth": "2",
+    "noise_distractors": [
+      1.69,
+      2.19,
+      2.09
+    ]
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the WC value for H-CMOW method for 400 dimensional word embedding?",
+    "ground_truth": "38.2",
+    "noise_distractors": [
+      41.33,
+      34.32,
+      41.8
+    ]
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "question": "What is the highest WC value observed?",
+    "ground_truth": "89.5",
+    "noise_distractors": [
+      89.96,
+      92.96,
+      95.84
+    ]
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the SICK-R value for CMOW method for 784 dimensional word embedding?",
+    "ground_truth": "76.2",
+    "noise_distractors": [
+      74.41,
+      90.37,
+      93.82
+    ]
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the STS16 score for the CMOW model?",
+    "ground_truth": "52.2",
+    "noise_distractors": [
+      56.48,
+      49.46,
+      41.13
+    ]
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the SICK-R value for Glorot initialization?",
+    "ground_truth": "73.6",
+    "noise_distractors": [
+      72.05,
+      83.29,
+      79.76
+    ]
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "question": "On how many tasks does our paper initialization have highest performance?",
+    "ground_truth": "7",
+    "noise_distractors": [
+      8.18,
+      6.9,
+      7.89
+    ]
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the STS16 value for the CMOW-C method?",
+    "ground_truth": "41.6",
+    "noise_distractors": [
+      35.67,
+      37.11,
+      38.16
+    ]
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "question": "What is the value observed in the above question?",
+    "ground_truth": "43.5",
+    "noise_distractors": [
+      49.13,
+      42.72,
+      45.1
+    ]
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the WC value for CMOW-R method?",
+    "ground_truth": "72.9",
+    "noise_distractors": [
+      56.04,
+      74.59,
+      71.06
+    ]
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "question": "What is the highest SOMO value observed?",
+    "ground_truth": "50.7",
+    "noise_distractors": [
+      41.87,
+      50.21,
+      49.93
+    ]
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "question": "On how many linguistic probing tasks does CMOW-C perform better than CMOW-R?",
+    "ground_truth": "2",
+    "noise_distractors": [
+      1.97,
+      1.98,
+      1.83
+    ]
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "question": "On how many linguistic probing tasks does CBOW-R perform better than CBOW-C?",
+    "ground_truth": "3",
+    "noise_distractors": [
+      2.85,
+      3.11,
+      2.97
+    ]
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the SICK-E value for the CMOW-R method?",
+    "ground_truth": "77.2",
+    "noise_distractors": [
+      80.9,
+      66.57,
+      78.82
+    ]
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "question": "What is the highest MPQA value observed?",
+    "ground_truth": "87.5",
+    "noise_distractors": [
+      93.88,
+      85.83,
+      84.31
+    ]
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "question": "On how many supervised downstream tasks does CMOW-C perform better than CMOW-R?",
+    "ground_truth": "1",
+    "noise_distractors": [
+      0.81,
+      0.93,
+      1.09
+    ]
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "question": "On how many supervised downstream tasks does CBOW-R perform better than CBOW-C?",
+    "ground_truth": "5",
+    "noise_distractors": [
+      4.79,
+      5.3,
+      4.83
+    ]
+  },
+  {
+    "id": "1905.07189v2_q0",
+    "question": "What is the value of MISC under the In E+ setting for MIL system?",
+    "ground_truth": "53.61",
+    "noise_distractors": [
+      60.14,
+      53.37,
+      46.35
+    ]
+  },
+  {
+    "id": "1905.07189v2_q2",
+    "question": "What is the value of ORG under the All setting for the MIL-ND system?",
+    "ground_truth": "77.15",
+    "noise_distractors": [
+      72.27,
+      73.72,
+      98.55
+    ]
+  },
+  {
+    "id": "1905.07189v2_q0",
+    "question": "What is the value of R under the In E+ setting for the MIL(model 1) system?",
+    "ground_truth": "69.38",
+    "noise_distractors": [
+      72.05,
+      69.1,
+      78.8
+    ]
+  },
+  {
+    "id": "1909.00352v1_q0",
+    "question": "When the premise is generated, what is the CON value for the S2S model?",
+    "ground_truth": "11.17",
+    "noise_distractors": [
+      11.57,
+      10.92,
+      11.4
+    ]
+  },
+  {
+    "id": "1909.00352v1_q1",
+    "question": "For GEN->REF, what is the ENT value for the G2S-GIN model?",
+    "ground_truth": "76.27",
+    "noise_distractors": [
+      80.17,
+      73.5,
+      82.39
+    ]
+  },
+  {
+    "id": "1909.00352v1_q2",
+    "question": "When the hypothesis is generated, what is the NEU value for the G2S-GAT model?",
+    "ground_truth": "13.92",
+    "noise_distractors": [
+      13.13,
+      12.18,
+      13.18
+    ]
+  },
+  {
+    "id": "1909.00352v1_q3",
+    "question": "What is the lowest contradiction average percentage, when premise is generated?",
+    "ground_truth": "8.09",
+    "noise_distractors": [
+      8.17,
+      7.97,
+      7.76
+    ]
+  },
+  {
+    "id": "1909.00352v1_q0",
+    "question": "What is the BLEU score for the test set of LDC2015E86 on Cao et al. model?",
+    "ground_truth": "23.5",
+    "noise_distractors": [
+      24.3,
+      28.69,
+      23.59
+    ]
+  },
+  {
+    "id": "1909.00352v1_q1",
+    "question": "What is the METEOR score for the test set of LDC2015E86 on the Damonte et al. model?",
+    "ground_truth": "23.6",
+    "noise_distractors": [
+      25.06,
+      22.23,
+      25.17
+    ]
+  },
+  {
+    "id": "1909.00352v1_q0",
+    "question": "What is the BLEU score for Konstas et al. model?",
+    "ground_truth": "27.4",
+    "noise_distractors": [
+      25.27,
+      26.36,
+      31.95
+    ]
+  },
+  {
+    "id": "1909.00352v1_q3",
+    "question": "What is the BLEU score achieved by our model?",
+    "ground_truth": "32.23",
+    "noise_distractors": [
+      33.26,
+      30.38,
+      31.18
+    ]
+  },
+  {
+    "id": "1909.00352v1_q0",
+    "question": "What is the BLEU score for biLSTM model?",
+    "ground_truth": "22.50",
+    "noise_distractors": [
+      25.42,
+      22.04,
+      25.78
+    ]
+  },
+  {
+    "id": "1909.00352v1_q3",
+    "question": "What is the least METEOR score observed?",
+    "ground_truth": "30.42",
+    "noise_distractors": [
+      34.28,
+      27.14,
+      36.66
+    ]
+  },
+  {
+    "id": "1909.00352v1_q0",
+    "question": "What is the MISS value for the S2S model?",
+    "ground_truth": "37.14",
+    "noise_distractors": [
+      41.62,
+      36.83,
+      36.81
+    ]
+  },
+  {
+    "id": "1909.00352v1_q3",
+    "question": "What is the highest ADDED value observed?",
+    "ground_truth": "50.77",
+    "noise_distractors": [
+      49.42,
+      46.82,
+      55.61
+    ]
+  },
+  {
+    "id": "1801.07772v1_q0",
+    "question": "What is the POS tagging accuracy for Ar language?",
+    "ground_truth": "88.7",
+    "noise_distractors": [
+      88.0,
+      75.34,
+      86.33
+    ]
+  },
+  {
+    "id": "1801.07772v1_q1",
+    "question": "What is the SEM tagging accuracy for Es language?",
+    "ground_truth": "86.1",
+    "noise_distractors": [
+      75.21,
+      93.08,
+      87.39
+    ]
+  },
+  {
+    "id": "1801.07772v1_q0",
+    "question": "What is the POS tagging accuracy for MFT?",
+    "ground_truth": "91.95",
+    "noise_distractors": [
+      94.22,
+      91.02,
+      94.1
+    ]
+  },
+  {
+    "id": "1801.07772v1_q1",
+    "question": "What is the SEM tagging accuracy for a classifier using unsupervised word embeddings?",
+    "ground_truth": "81.11",
+    "noise_distractors": [
+      73.91,
+      93.77,
+      78.3
+    ]
+  },
+  {
+    "id": "1801.07772v1_q2",
+    "question": "What is the POS tagging accuracy for a classifier using upper bound encoder-decoder?",
+    "ground_truth": "95.55",
+    "noise_distractors": [
+      96.38,
+      98.0,
+      91.74
+    ]
+  },
+  {
+    "id": "1801.07772v1_q3",
+    "question": "What is the least POS tagging accuracy observed?",
+    "ground_truth": "87.06",
+    "noise_distractors": [
+      88.4,
+      88.94,
+      93.73
+    ]
+  },
+  {
+    "id": "1801.07772v1_q2",
+    "question": "What is the highest SEM tagging accuracy for the En language?",
+    "ground_truth": "84.5",
+    "noise_distractors": [
+      90.94,
+      84.34,
+      93.78
+    ]
+  },
+  {
+    "id": "1801.07772v1_q3",
+    "question": "What is the SEM tagging accuracy for the 3rd encoding layer for Zh language?",
+    "ground_truth": "87.3",
+    "noise_distractors": [
+      75.35,
+      100.05,
+      95.14
+    ]
+  },
+  {
+    "id": "1801.07772v1_q0",
+    "question": "What is the POS tagging accuracy for 2nd layer Unidirectional NMT encoder?",
+    "ground_truth": "91.7",
+    "noise_distractors": [
+      81.43,
+      67.21,
+      86.74
+    ]
+  },
+  {
+    "id": "1801.07772v1_q1",
+    "question": "What is the highest POS tagging accuracy in Bidirectional NMT encoder?",
+    "ground_truth": "93.3",
+    "noise_distractors": [
+      66.61,
+      75.62,
+      86.55
+    ]
+  },
+  {
+    "id": "1801.07772v1_q2",
+    "question": "What is the highest SEM tagging accuracy in Residual NMT encoder?",
+    "ground_truth": "88.5",
+    "noise_distractors": [
+      96.89,
+      92.56,
+      87.48
+    ]
+  },
+  {
+    "id": "1801.07772v1_q3",
+    "question": "What is the SEM value under column name 3 for row name Bi?",
+    "ground_truth": "91.9",
+    "noise_distractors": [
+      98.55,
+      85.32,
+      79.91
+    ]
+  },
+  {
+    "id": "1808.06640v2_q0",
+    "question": "What is the difference between the attacker score and the corresponding adversary’s accuracy for DIAL data sentiment Task?",
+    "ground_truth": "12.2",
+    "noise_distractors": [
+      13.62,
+      12.39,
+      13.11
+    ]
+  },
+  {
+    "id": "1808.06640v2_q2",
+    "question": "For PAN16 data, mention task, what is the highest ∆?",
+    "ground_truth": "9.7",
+    "noise_distractors": [
+      8.71,
+      9.26,
+      10.33
+    ]
+  },
+  {
+    "id": "1808.06640v2_q3",
+    "question": "Mention how many unique protected attributes are there in DIAL data?",
+    "ground_truth": "1",
+    "noise_distractors": [
+      1.03,
+      1.1,
+      1.09
+    ]
+  },
+  {
+    "id": "1808.06640v2_q0",
+    "question": "For DIAL data, sentiment task what is the accuracy achieved?",
+    "ground_truth": "67.4",
+    "noise_distractors": [
+      73.19,
+      67.53,
+      68.58
+    ]
+  },
+  {
+    "id": "1808.06640v2_q1",
+    "question": "For DIAL data what is the highest accuracy achieved?",
+    "ground_truth": "83.9",
+    "noise_distractors": [
+      83.79,
+      93.94,
+      85.4
+    ]
+  },
+  {
+    "id": "1808.06640v2_q2",
+    "question": "For the PAN16 data, age task what is the accuracy achieved?",
+    "ground_truth": "64.8",
+    "noise_distractors": [
+      65.33,
+      59.96,
+      63.96
+    ]
+  },
+  {
+    "id": "1808.06640v2_q0",
+    "question": "For DIAL data what is the balanced task acc?",
+    "ground_truth": "67.4",
+    "noise_distractors": [
+      65.84,
+      60.59,
+      69.34
+    ]
+  },
+  {
+    "id": "1808.06640v2_q1",
+    "question": "For PAN16 data what is the unbalanced leakage for the protected attribute age?",
+    "ground_truth": "59.7",
+    "noise_distractors": [
+      57.83,
+      66.01,
+      60.61
+    ]
+  },
+  {
+    "id": "1808.06640v2_q3",
+    "question": "What is the highest unbalanced task acc value?",
+    "ground_truth": "86.0",
+    "noise_distractors": [
+      66.71,
+      99.3,
+      87.55
+    ]
+  },
+  {
+    "id": "1808.06640v2_q0",
+    "question": "What is the highest difference between the attacker score and the corresponding adversary’s accuracy?",
+    "ground_truth": "9.2",
+    "noise_distractors": [
+      8.98,
+      9.88,
+      9.29
+    ]
+  },
+  {
+    "id": "1808.06640v2_q1",
+    "question": "What is the least task acc value observed?",
+    "ground_truth": "64.7",
+    "noise_distractors": [
+      60.75,
+      53.02,
+      54.14
+    ]
+  },
+  {
+    "id": "1808.06640v2_q3",
+    "question": "What is the leakage value for mention task under DIAL data?",
+    "ground_truth": "63.1",
+    "noise_distractors": [
+      72.26,
+      59.47,
+      67.73
+    ]
+  },
+  {
+    "id": "1808.06640v2_q0",
+    "question": "What is the value of RNN row and guarded embedding column?",
+    "ground_truth": "67.8",
+    "noise_distractors": [
+      81.11,
+      58.17,
+      63.91
+    ]
+  },
+  {
+    "id": "1808.06640v2_q1",
+    "question": "Under leaky column what is the highest value?",
+    "ground_truth": "64.5",
+    "noise_distractors": [
+      78.46,
+      70.38,
+      71.19
+    ]
+  },
+  {
+    "id": "1808.06640v2_q2",
+    "question": "What is the sum of all values in the table?",
+    "ground_truth": "246.4",
+    "noise_distractors": [
+      264.72,
+      277.03,
+      239.82
+    ]
+  },
+  {
+    "id": "1905.13324v1_q0",
+    "question": "What is the test perplexity on the PTB language modeling task under finetune column for ATR model?",
+    "ground_truth": "65.86",
+    "noise_distractors": [
+      65.38,
+      59.9,
+      60.62
+    ]
+  },
+  {
+    "id": "1905.13324v1_q1",
+    "question": "What is the test perplexity on the WT2 language modeling task under dynamic column for SRU model?",
+    "ground_truth": "57.97",
+    "noise_distractors": [
+      64.01,
+      59.72,
+      54.44
+    ]
+  },
+  {
+    "id": "1905.13324v1_q0",
+    "question": "What is the test accuracy for the layer normalization model, under the time column for GRU?",
+    "ground_truth": "0.419",
+    "noise_distractors": [
+      0.41,
+      0.47,
+      0.43
+    ]
+  },
+  {
+    "id": "1905.13324v1_q1",
+    "question": "What is the test accuracy for the BERT model, under the ACC column for SRU?",
+    "ground_truth": "89.98",
+    "noise_distractors": [
+      91.97,
+      100.1,
+      87.18
+    ]
+  },
+  {
+    "id": "1905.13324v1_q2",
+    "question": "What is the highest test accuracy for the base model under the ACC column?",
+    "ground_truth": "85.71",
+    "noise_distractors": [
+      84.41,
+      101.03,
+      78.27
+    ]
+  },
+  {
+    "id": "1905.13324v1_q0",
+    "question": "What is the test error for the AmaPolar model, under the time column for GRU?",
+    "ground_truth": "0.948",
+    "noise_distractors": [
+      0.88,
+      1.01,
+      1.03
+    ]
+  },
+  {
+    "id": "1905.13324v1_q1",
+    "question": "What is the test error for the AmaFull model, under the ERR column for ATR?",
+    "ground_truth": "38.54",
+    "noise_distractors": [
+      33.04,
+      42.56,
+      39.86
+    ]
+  },
+  {
+    "id": "1905.13324v1_q2",
+    "question": "What is the least test error for the Yahoo model under the ERR column?",
+    "ground_truth": "24.62",
+    "noise_distractors": [
+      27.59,
+      23.0,
+      23.33
+    ]
+  },
+  {
+    "id": "1905.13324v1_q1",
+    "question": "What is the BLEU score for the GRU model?",
+    "ground_truth": "26.28",
+    "noise_distractors": [
+      24.66,
+      30.28,
+      23.09
+    ]
+  },
+  {
+    "id": "1905.13324v1_q2",
+    "question": "What is the least time per training batch measured from 0.2k training steps on Tesla P100?",
+    "ground_truth": "0.99",
+    "noise_distractors": [
+      0.89,
+      1.13,
+      1.03
+    ]
+  },
+  {
+    "id": "1905.13324v1_q0",
+    "question": "What is the F1 score achieved for the SRU model?",
+    "ground_truth": "88.89",
+    "noise_distractors": [
+      91.48,
+      85.68,
+      78.37
+    ]
+  },
+  {
+    "id": "1905.13324v1_q3",
+    "question": "What is the F1 score reported by Lample et al., 2016?",
+    "ground_truth": "90.94",
+    "noise_distractors": [
+      98.38,
+      90.6,
+      103.94
+    ]
+  }
+]

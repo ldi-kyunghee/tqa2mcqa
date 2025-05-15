@@ -1,0 +1,476 @@
+[
+  {
+    "id": "1809.00832v1_q3",
+    "ques": "Is throughput of inference for a batch size of 10 greater than throughput of training for batch size of 25?",
+    "ans": "less than",
+    "prediction": "yes, the throughput of inference for a batch size of 10 is greater than the throughput of training for a batch size of 25"
+  },
+  {
+    "id": "1809.00832v1_q2",
+    "ques": "For which dataset is the third least throughput observed and what is the value?",
+    "ans": "Dataset-Moderate, Value-27.3",
+    "prediction": null
+  },
+  {
+    "id": "1805.11461v1_q2",
+    "ques": "Least F1 score is observed for which representation?",
+    "ans": "UD v1.3",
+    "prediction": "UD v1.3"
+  },
+  {
+    "id": "1805.11461v1_q3",
+    "ques": "Which representation has the highest F1 score with default values?",
+    "ans": "CoNLL08",
+    "prediction": "SB"
+  },
+  {
+    "id": "1805.11461v1_q0",
+    "ques": "Which relation type gives best F1 score without sdp?",
+    "ans": "USAGE",
+    "prediction": "60.34"
+  },
+  {
+    "id": "1805.11461v1_q1",
+    "ques": "Which relation type gives the least F1 score with sdp?",
+    "ans": "COMPARE",
+    "prediction": "COMPARE"
+  },
+  {
+    "id": "1805.11461v1_q2",
+    "ques": "On which relation type does sdp show the most effect?",
+    "ans": "TOPIC",
+    "prediction": "TOPIC"
+  },
+  {
+    "id": "1704.06104v2_q0",
+    "ques": "Taggers or parsers, which have the lower standard deviation?",
+    "ans": "Taggers",
+    "prediction": "taggers"
+  },
+  {
+    "id": "1704.06104v2_q1",
+    "ques": "What is the highest standard of deviation observed?",
+    "ans": "±13.57",
+    "prediction": "13.57"
+  },
+  {
+    "id": "1704.06104v2_q2",
+    "ques": "For essay level, what is the value for LSTM-Parser?",
+    "ans": "9.40±13.57",
+    "prediction": "9.40"
+  },
+  {
+    "id": "1704.06104v2_q3",
+    "ques": "For paragraph level, what is the value for STagBL?",
+    "ans": "64.74±1.97",
+    "prediction": "64.74"
+  },
+  {
+    "id": "1911.03905v1_q3",
+    "ques": "Which part in the original dataset has SER(%)  just lower than the TRAIN part?",
+    "ans": "TEST",
+    "prediction": "TEST"
+  },
+  {
+    "id": "1911.03905v1_q3",
+    "ques": "For which system is the least CIDEr value observed?",
+    "ans": "SC-LSTM",
+    "prediction": "TGen+"
+  },
+  {
+    "id": "1911.03905v1_q1",
+    "ques": "Which value, high disfluency or low disfluency, indicates better performance?",
+    "ans": "Low disfluency",
+    "prediction": "low disfluency"
+  },
+  {
+    "id": "1911.03905v1_q3",
+    "ques": "Which 2 types of training data have the same disfluency value?",
+    "ans": "Original and Cleaned added",
+    "prediction": "Original and Cleaned added"
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "ques": "Which model gives the highest BLEU score and what is the value?",
+    "ans": "DCGCN(ensemble), value-35.3",
+    "prediction": null
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "ques": "How many Gigaword sentences are parsed as training data in the case of highest B score?",
+    "ans": "0.3M",
+    "prediction": "300000"
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "ques": "Which ensemble model gives the least C score?",
+    "ans": "Seq2SeqB model",
+    "prediction": "52.5"
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "ques": "Which ensemble model gives the least C score for English-German translation tasks?",
+    "ans": "Seq2SeqB",
+    "prediction": "GGNN2Seq"
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "ques": "Which ensemble model gives the least C score for English-Czech translation tasks?",
+    "ans": "GGNN2Seq",
+    "prediction": "GGNN2Seq"
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "ques": "For what values of n and m is the highest BLEU score observed for one block DCGCN?",
+    "ans": "n=6,m=6",
+    "prediction": "(6, 6)"
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "ques": "For what values of n and m is the highest BLEU score observed for two block DCGCN?",
+    "ans": "n=3,m=6",
+    "prediction": "(2, 3)"
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "ques": "For what values of n and m is the highest C score observed for two block DCGCN and what is the value?",
+    "ans": "n=6,m=3, value-53.4",
+    "prediction": "(n=6, m=3) with a C score of 53.4"
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "ques": "Which model has the highest C value?",
+    "ans": "DCGCN4 (36)",
+    "prediction": "DCGCN4 (36)"
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "ques": "Which model, DCGCN(3) with 18.6M parameters or DCGCN(4) with 18.4M parameters, performs better?",
+    "ans": "DCGCN(4) with 18.4M parameters",
+    "prediction": "DCGCN(4) performs better"
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "ques": "For the DCGCN(2) model with 12.5M parameters what are the B and C values?",
+    "ans": "23.8 and 53.8",
+    "prediction": "B = 23"
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "ques": "For which model is the lowest C value observed?",
+    "ans": "{2, 3, 4} dense blocks",
+    "prediction": "-{2, 3, 4} dense blocks"
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "ques": "Which 2 encoder module models have the same C value?",
+    "ans": "Global node and Linear combination",
+    "prediction": "Global Node and Direction Aggregation"
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "ques": "On which task N (0, 0.1) and our paper initialization have the same performance?",
+    "ans": "SubjNum",
+    "prediction": null
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "ques": "For which initialization does the SOMO task give the highest value?",
+    "ans": "N(0,0.1)",
+    "prediction": "82.0"
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "ques": "What is the only task at which CBOW gives better performance than CMOW?",
+    "ans": "Word content memorization",
+    "prediction": null
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "ques": "What are the highest TopConst and SOMO values observed?",
+    "ans": "74.3 and 50.7",
+    "prediction": "TopConst: 35"
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "ques": "On which downstream tasks does the CBOW method have the highest score?",
+    "ans": "CR,MR,SICK-R",
+    "prediction": "Task 1"
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "ques": "Which model gives the best performance on SUBJ task?",
+    "ans": "Hybrid",
+    "prediction": "CMOW"
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "ques": "On which downstream task do 2 methods give the same performance?",
+    "ans": "MPQA",
+    "prediction": "\"none\""
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "ques": "What is the relative change with respect to hybrid for CBOW model on STS13 downstream task?",
+    "ans": "-8%",
+    "prediction": "-8%"
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "ques": "What is the relative change with respect to hybrid for CMOW model on STS14 downstream task?",
+    "ans": "+42.4%",
+    "prediction": "-20"
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "ques": "On which unsupervised downstream tasks does CBOW method give the best performance?",
+    "ans": "STS13,STS14 and STS15",
+    "prediction": "Task"
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "ques": "On which task N (0, 0.1) and Glorot initialization have the same performance?",
+    "ans": "SST5",
+    "prediction": null
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "ques": "What is the highest TREC score observed and for which initialization?",
+    "ans": "88.4 for Glorot initialization",
+    "prediction": "Our paper"
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "ques": "On which unsupervised downstream tasks does CBOW-C and CBOW-R have the same value?",
+    "ans": "STS12",
+    "prediction": "Task 1"
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "ques": "For which method is the highest STS15 value observed?",
+    "ans": "CBOW-C",
+    "prediction": "CBOW-R"
+  },
+  {
+    "id": "1905.07189v2_q1",
+    "ques": "Under All setting highest error for LOC was observed for which system?",
+    "ans": "Name matching system",
+    "prediction": "Name matching"
+  },
+  {
+    "id": "1905.07189v2_q3",
+    "ques": "Under In E+ setting lowest error for PER was observed for which system?",
+    "ans": "Supervised learning",
+    "prediction": "τMIL-ND"
+  },
+  {
+    "id": "1905.07189v2_q1",
+    "ques": "Under All setting highest value for R was observed for which system?",
+    "ans": "Supervised learning",
+    "prediction": "Supervised learning"
+  },
+  {
+    "id": "1905.07189v2_q2",
+    "ques": "What is the value of F1 under the In E+ setting for the MIL-ND(model 2) system?",
+    "ans": "72.50 ±0.68",
+    "prediction": "37.42"
+  },
+  {
+    "id": "1905.07189v2_q3",
+    "ques": "Under In E+ setting lowest value for P was observed for which system?",
+    "ans": "Name matching",
+    "prediction": "Name matching"
+  },
+  {
+    "id": "1909.00352v1_q2",
+    "ques": "Which among our models performs the best on the LDC2015E86 test dataset?",
+    "ans": "G2S-GGNN model",
+    "prediction": "G2"
+  },
+  {
+    "id": "1909.00352v1_q3",
+    "ques": "What are the BLEU and METEOR scores achieved by the G2S-GGNN model for the LDC2017T10 test dataset?",
+    "ans": "BLEU score- 27.87± 0.15, METEOR score- 33.21 ± 0.15",
+    "prediction": "BLEU: 27"
+  },
+  {
+    "id": "1909.00352v1_q1",
+    "ques": "Models are trained on how many additional Gigaword data?",
+    "ans": "200K",
+    "prediction": "200K"
+  },
+  {
+    "id": "1909.00352v1_q2",
+    "ques": "Which baseline model achieves the highest BLEU score?",
+    "ans": "Guo et al. (2019)",
+    "prediction": "G2S-GGNN"
+  },
+  {
+    "id": "1909.00352v1_q1",
+    "ques": "What are the number of parameters used in the GEt + biLSTM model?",
+    "ans": "59.6M",
+    "prediction": "59"
+  },
+  {
+    "id": "1909.00352v1_q2",
+    "ques": "Which model gives the highest BLEU score?",
+    "ans": "GEt + GEb + biLSTM",
+    "prediction": "GEt + GEb + biLSTM"
+  },
+  {
+    "id": "1909.00352v1_q0",
+    "ques": "Which model has the best performance for graph diameters in range 7-13?",
+    "ans": "G2S-GGNN model",
+    "prediction": "G2S-GGNN"
+  },
+  {
+    "id": "1909.00352v1_q1",
+    "ques": "As the sentence length is increasing, the performance decreases or increases?",
+    "ans": "Decreases",
+    "prediction": "\"performance decreases as sentence length increases"
+  },
+  {
+    "id": "1909.00352v1_q2",
+    "ques": "What is the highest METEOR score observed for Max Node Out-degree of 4-8?",
+    "ans": "33.1 +10.4%",
+    "prediction": "33.1"
+  },
+  {
+    "id": "1909.00352v1_q3",
+    "ques": "What is the highest METEOR score observed?",
+    "ans": "37.9 +8.5%",
+    "prediction": "37.9"
+  },
+  {
+    "id": "1909.00352v1_q1",
+    "ques": "What is the least MISS value observed?",
+    "ans": "GOLD",
+    "prediction": "28.35"
+  },
+  {
+    "id": "1909.00352v1_q2",
+    "ques": "What are the ADDED and MISS values observed for the GOLD model?",
+    "ans": "50.77 and 28.35",
+    "prediction": "ADDED: 50"
+  },
+  {
+    "id": "1801.07772v1_q2",
+    "ques": "For which language has the highest POS tagging accuracy observed?",
+    "ans": "Es",
+    "prediction": "Language 2"
+  },
+  {
+    "id": "1801.07772v1_q3",
+    "ques": "What are the POS and SEM tagging accuracy of Ru?",
+    "ans": "88.6 and 85.8",
+    "prediction": "POS: 87"
+  },
+  {
+    "id": "1801.07772v1_q0",
+    "ques": "What is the POS tagging accuracy for the 2nd encoding layer for Ar language?",
+    "ans": "",
+    "prediction": "91"
+  },
+  {
+    "id": "1801.07772v1_q1",
+    "ques": "For which encoding layer highest POS tagging accuracy for Ar language is achieved?",
+    "ans": "1st layer",
+    "prediction": "Layer 4"
+  },
+  {
+    "id": "1808.06640v2_q1",
+    "ques": "What is the protected attribute for ∆ of 8.1?",
+    "ans": "Gender",
+    "prediction": "Gender"
+  },
+  {
+    "id": "1808.06640v2_q3",
+    "ques": "For PAN16 data, for which task is the highest accuracy achieved?",
+    "ans": "Mention task",
+    "prediction": "77.5"
+  },
+  {
+    "id": "1808.06640v2_q2",
+    "ques": "Mention all the unique protected attributes?",
+    "ans": "Race,gender,age",
+    "prediction": "Race, Gender, Age"
+  },
+  {
+    "id": "1808.06640v2_q2",
+    "ques": "What are all unique tasks?",
+    "ans": "sentiment, mention",
+    "prediction": "\"Race, Gender, Age"
+  },
+  {
+    "id": "1905.13324v1_q2",
+    "ques": "Which model has the best performance on the WT2 language modeling task under dynamic column?",
+    "ans": "LSTM",
+    "prediction": "Yang et al"
+  },
+  {
+    "id": "1905.13324v1_q3",
+    "ques": "Which model has the best performance on the PTB language modeling task under finetune column?",
+    "ans": "LRN",
+    "prediction": "Yang et al"
+  },
+  {
+    "id": "1905.13324v1_q3",
+    "ques": "For which model is the highest test accuracy observed under +LN+BERT under time column?",
+    "ans": "LSTM",
+    "prediction": "GRU"
+  },
+  {
+    "id": "1905.13324v1_q3",
+    "ques": "Which model has the best performance for YelpPolar under ERR column?",
+    "ans": "GRU",
+    "prediction": "GRU"
+  },
+  {
+    "id": "1905.13324v1_q0",
+    "ques": "Which model takes the least time to decode one sentence measured on the newstest2014 dataset?",
+    "ans": "ATR",
+    "prediction": "ATR"
+  },
+  {
+    "id": "1905.13324v1_q3",
+    "ques": "What is the #Params value for the oLRN model?",
+    "ans": "164M",
+    "prediction": "164M"
+  },
+  {
+    "id": "1905.13324v1_q0",
+    "ques": "What is the Exact match/F1-score in the results published by Wang et al. (2017) for the base model?",
+    "ans": "71.1/79.5",
+    "prediction": "71"
+  },
+  {
+    "id": "1905.13324v1_q1",
+    "ques": "What is the #Params value for the LRN model?",
+    "ans": "2.14M",
+    "prediction": "2"
+  },
+  {
+    "id": "1905.13324v1_q2",
+    "ques": "After integrating Elmo, which model gives the highest Exact match/F1-score?",
+    "ans": "LRN",
+    "prediction": "rnet*"
+  },
+  {
+    "id": "1905.13324v1_q3",
+    "ques": "What is the Exact match/F1-score for the ATR base model?",
+    "ans": "69.73/78.70",
+    "prediction": "69"
+  },
+  {
+    "id": "1905.13324v1_q1",
+    "ques": "What is the #Params value for the LRN model ?",
+    "ans": "129K",
+    "prediction": "129K"
+  },
+  {
+    "id": "1905.13324v1_q2",
+    "ques": "Which model performed better, LSTM or GRU?",
+    "ans": "LSTM",
+    "prediction": "LSTM"
+  }
+]
