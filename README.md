@@ -82,7 +82,6 @@
 **지표 설명**
 - **F1 Score**: 정밀도(Precision)와 재현율(Recall)의 조화평균으로, 모델의 전반적인 정답률을 나타냅니다.
 - **Selective Accuracy**: 모델이 '안다'고 판단한(즉, '모른다' 선택지를 고르지 않은) 문제들 중에서 정답을 맞춘 비율입니다.
-  - \( \text{Selective Accuracy} = \frac{TP}{TP + FP} \)
 
 ---
 
