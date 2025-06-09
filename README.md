@@ -13,11 +13,10 @@
 
 - **프로젝트 개요**
 - **데이터셋**
-- **오답(디스트랙터) 생성 방식**
+- **오답 생성 방식**
 - **MCQA 데이터 구축 및 평가 방법**
 - **실험 결과**
 - **주요 결론 및 한계**
-- **참고 논문**
 
 ---
 
@@ -26,7 +25,7 @@
 - **배경:**  
   LLM 기반 Table QA 평가에서, **정답 표현이 다양해 실제 의미상 정답임에도 오답으로 처리**되는 문제가 빈번하게 발생합니다.  
 - **목표:**  
-  QA 데이터를 **MCQA로 전환**하여 정답 표현의 모호성을 줄이고, **평가 신뢰도**를 높입니다.  
+  QA 데이터를 **MCQA(4지선다형)로 전환**하여 정답 표현의 모호성을 줄이고, **평가 신뢰도**를 높입니다.  
   다양한 오답 생성 방식과 **'모른다' 선택지(5지선다형)**를 실험하여 평가의 현실성과 신뢰성을 개선합니다.
 
 ---
@@ -38,26 +37,12 @@
   - **QA 쌍:** 199개  
   - **특징:** 숫자/문자 혼합 정답, 다양한 테이블 구조, Table+Description 혼합 질문
 
-- **TableBench**  
-  - 18개 분야, 4개 카테고리(사실 검증, 수치 추론, 데이터 분석, 시각화)로 구성  
-  - 대규모 Table QA 벤치마크 데이터셋
-
 ---
 
-## 🛠️ 오답(디스트랙터) 생성 방식
+## 🛠️ 오답 생성 방식
 
 - **Perturbation (수치형 오답)**
   - 정답이 숫자인 경우, **random gaussian noise**를 추가해 오답 생성  
-  - **예시 코드:**
-    ```
-    def generate_gaussian_distractor(answer, std_ratio=0.1):
-        std_dev = abs(answer) * std_ratio if answer != 0 else 1.0
-        while True:
-            noise = np.random.normal(0, std_dev)
-            distractor = round(answer + noise, 2)
-            if distractor != answer:
-                return str(distractor)
-    ```
 - **Hard Negative (약한 LLM 활용)**
   - gpt-4.1-nano, gpt-3.5-turbo 등 **약한 LLM의 답변**을 오답으로 사용  
   - 다양한 temperature, top-p 조정 시도했으나 **충분한 다양성 확보에 한계**
