@@ -1,0 +1,2191 @@
+[
+  {
+    "id": "1809.00832v1_q0",
+    "question": "What is the throughput on inference using fold’s folding technique on batch size of 10?",
+    "mcq_choices": {
+      "A": "83.1",
+      "B": "46.7",
+      "C": "52.2",
+      "D": "125.2"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1809.00832v1_q1",
+    "question": "What is the highest throughput during training?",
+    "mcq_choices": {
+      "A": "46.7",
+      "B": "61.6",
+      "C": "125.2",
+      "D": "27.3"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1809.00832v1_q2",
+    "question": "What is the difference between highest and lowest throughput observed?",
+    "mcq_choices": {
+      "A": "Dataset-Balanced, Value-46.7",
+      "B": "Dataset-Linear, Value-22.7",
+      "C": "52.6",
+      "D": "Dataset-Balanced, Value-125.2"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1809.00832v1_q3",
+    "question": "Is throughput of inference for a batch size of 10 greater than throughput of training for batch size of 25?",
+    "mcq_choices": {
+      "A": "130.0",
+      "B": "less than",
+      "C": "125.9",
+      "D": "134.4"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1809.00832v1_q0",
+    "question": "What is the throughput using linear datasets on batch size of 10?",
+    "mcq_choices": {
+      "A": "46.7",
+      "B": "83.1",
+      "C": "22.7",
+      "D": "125.2"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1809.00832v1_q1",
+    "question": "What is the highest throughput observed?",
+    "mcq_choices": {
+      "A": "129.7",
+      "B": "27.3",
+      "C": "125.2",
+      "D": "46.7"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1809.00832v1_q2",
+    "question": "For which dataset is the third least throughput observed and what is the value?",
+    "mcq_choices": {
+      "A": "Dataset-Balanced, Value-46.7",
+      "B": "Dataset-Moderate, Value-27.3",
+      "C": "Dataset-Linear, Value-22.7",
+      "D": "Dataset-Balanced, Value-125.2"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1809.00832v1_q3",
+    "question": "What is the sum of least and highest throughput observed?",
+    "mcq_choices": {
+      "A": "137.3",
+      "B": "134.4",
+      "C": "125.9",
+      "D": "130.0"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1805.11461v1_q0",
+    "question": "What is the F1 score obtained for SB representation with default values?",
+    "mcq_choices": {
+      "A": "48.89",
+      "B": "80.24",
+      "C": "73.34",
+      "D": "+ 19.90"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1805.11461v1_q1",
+    "question": "What is the difference in F1 score with optimal and default values for SB representation?",
+    "mcq_choices": {
+      "A": "TOPIC",
+      "B": "MODEL-FEATURE",
+      "C": "PART_WHOLE",
+      "D": "2.22"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1805.11461v1_q2",
+    "question": "Least F1 score is observed for which representation?",
+    "mcq_choices": {
+      "A": "70.00",
+      "B": "70.27",
+      "C": "UD v1.3",
+      "D": "80.24"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1805.11461v1_q3",
+    "question": "Which representation has the highest F1 score with default values?",
+    "mcq_choices": {
+      "A": "+45.46",
+      "B": "+40.76",
+      "C": "CoNLL08",
+      "D": "+21.11"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1805.11461v1_q0",
+    "question": "Which relation type gives best F1 score without sdp?",
+    "mcq_choices": {
+      "A": "48.89",
+      "B": "80.24",
+      "C": "USAGE",
+      "D": "+ 19.90"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1805.11461v1_q1",
+    "question": "Which relation type gives the least F1 score with sdp?",
+    "mcq_choices": {
+      "A": "TOPIC",
+      "B": "COMPARE",
+      "C": "PART_WHOLE",
+      "D": "MODEL-FEATURE"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1805.11461v1_q2",
+    "question": "On which relation type does sdp show the most effect?",
+    "mcq_choices": {
+      "A": "TOPIC",
+      "B": "70.27",
+      "C": "70.00",
+      "D": "80.24"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1805.11461v1_q3",
+    "question": "What is the diff value for RESULT relation type?",
+    "mcq_choices": {
+      "A": "+21.11",
+      "B": "+40.76",
+      "C": "+27.23",
+      "D": "+45.46"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1704.06104v2_q0",
+    "question": "What is the C-F1 under 50% column for y-3:yc-1?",
+    "mcq_choices": {
+      "A": "56.24±2.87",
+      "B": "60.62±3.54",
+      "C": "64.74±1.97",
+      "D": "66.84"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1704.06104v2_q1",
+    "question": "What is the R-F1 under 100% column for y-3:yc-3?",
+    "mcq_choices": {
+      "A": "±2.87",
+      "B": "30.22",
+      "C": "±3.54",
+      "D": "±1.97"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1704.06104v2_q2",
+    "question": "What is the highest C-F1 under 50% column observed?",
+    "mcq_choices": {
+      "A": "60.62±3.54",
+      "B": "64.74±1.97",
+      "C": "67.84",
+      "D": "56.24±2.87"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1704.06104v2_q3",
+    "question": "What is the least F1 under 100% column observed?",
+    "mcq_choices": {
+      "A": "60.62±3.54",
+      "B": "9.40±13.57",
+      "C": "34.35",
+      "D": "56.24±2.87"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1704.06104v2_q0",
+    "question": "What is the C-F1 under 50% column for paragraph level on MST-Parser?",
+    "mcq_choices": {
+      "A": "64.74±1.97",
+      "B": "56.24±2.87",
+      "C": "60.62±3.54",
+      "D": "6.90"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1704.06104v2_q1",
+    "question": "What is the R-F1 under 100% column for essay level on LSTM-ER?",
+    "mcq_choices": {
+      "A": "±3.54",
+      "B": "29.56",
+      "C": "±2.87",
+      "D": "±1.97"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1704.06104v2_q2",
+    "question": "What is the highest C-F1 under 50% column for paragraph level observed?",
+    "mcq_choices": {
+      "A": "56.24±2.87",
+      "B": "60.62±3.54",
+      "C": "64.74±1.97",
+      "D": "77.19"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1704.06104v2_q3",
+    "question": "What is the highest F1 value for essay level observed?",
+    "mcq_choices": {
+      "A": "9.40±13.57",
+      "B": "50.51",
+      "C": "60.62±3.54",
+      "D": "56.24±2.87"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1704.06104v2_q0",
+    "question": "Taggers or parsers, which have the lower standard deviation?",
+    "mcq_choices": {
+      "A": "64.74±1.97",
+      "B": "Taggers",
+      "C": "56.24±2.87",
+      "D": "60.62±3.54"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1704.06104v2_q1",
+    "question": "What is the highest standard of deviation observed?",
+    "mcq_choices": {
+      "A": "±3.54",
+      "B": "±13.57",
+      "C": "±2.87",
+      "D": "±1.97"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1704.06104v2_q2",
+    "question": "For essay level, what is the value for LSTM-Parser?",
+    "mcq_choices": {
+      "A": "56.24±2.87",
+      "B": "9.40±13.57",
+      "C": "64.74±1.97",
+      "D": "60.62±3.54"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1704.06104v2_q3",
+    "question": "For paragraph level, what is the value for STagBL?",
+    "mcq_choices": {
+      "A": "60.62±3.54",
+      "B": "64.74±1.97",
+      "C": "9.40±13.57",
+      "D": "56.24±2.87"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1911.03905v1_q0",
+    "question": "What is the BLEU value for the TGen- system and trained on the original dataset?",
+    "mcq_choices": {
+      "A": "0",
+      "B": "36.85",
+      "C": "22",
+      "D": "0"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1911.03905v1_q1",
+    "question": "What is the highest SER value observed?",
+    "mcq_choices": {
+      "A": "0",
+      "B": "35.03",
+      "C": "5",
+      "D": "14"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1911.03905v1_q2",
+    "question": "What is the METEOR value for the TGen+ system and trained on the cleaned missing dataset?",
+    "mcq_choices": {
+      "A": "23",
+      "B": "37.94",
+      "C": "5",
+      "D": "14"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1911.03905v1_q3",
+    "question": "What is the least CIDEr value observed?",
+    "mcq_choices": {
+      "A": "Cleaned missing and Cleaned",
+      "B": "0.3855",
+      "C": "Cleaned added and Cleaned",
+      "D": "Original and Cleaned missing"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1911.03905v1_q0",
+    "question": "What is the SER(%) for the original dataset DEV part?",
+    "mcq_choices": {
+      "A": "0",
+      "B": "22",
+      "C": "0",
+      "D": "11.42"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1911.03905v1_q1",
+    "question": "What is the difference of MRs in the cleaned and original dataset?",
+    "mcq_choices": {
+      "A": "14",
+      "B": "3500",
+      "C": "5",
+      "D": "0"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1911.03905v1_q2",
+    "question": "What is the highest SER(%) obtained?",
+    "mcq_choices": {
+      "A": "23",
+      "B": "5",
+      "C": "17.69",
+      "D": "14"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1911.03905v1_q3",
+    "question": "Which part in the original dataset has SER(%)  just lower than the TRAIN part?",
+    "mcq_choices": {
+      "A": "Cleaned missing and Cleaned",
+      "B": "TEST",
+      "C": "Original and Cleaned missing",
+      "D": "Cleaned added and Cleaned"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1911.03905v1_q0",
+    "question": "What is the BLEU value for the TGen- system and trained on the original dataset?",
+    "mcq_choices": {
+      "A": "63.37",
+      "B": "0",
+      "C": "0",
+      "D": "22"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1911.03905v1_q1",
+    "question": "What is the highest SER value observed?",
+    "mcq_choices": {
+      "A": "31.51",
+      "B": "5",
+      "C": "14",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1911.03905v1_q2",
+    "question": "What is the METEOR value for the TGen+ system and trained on the cleaned missing dataset?",
+    "mcq_choices": {
+      "A": "23",
+      "B": "5",
+      "C": "14",
+      "D": "44.84"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1911.03905v1_q3",
+    "question": "For which system is the least CIDEr value observed?",
+    "mcq_choices": {
+      "A": "Cleaned added and Cleaned",
+      "B": "Cleaned missing and Cleaned",
+      "C": "SC-LSTM",
+      "D": "Original and Cleaned missing"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1911.03905v1_q0",
+    "question": "What is the disfluency for original training data?",
+    "mcq_choices": {
+      "A": "14",
+      "B": "0",
+      "C": "0",
+      "D": "22"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1911.03905v1_q1",
+    "question": "Which value, high disfluency or low disfluency, indicates better performance?",
+    "mcq_choices": {
+      "A": "5",
+      "B": "Low disfluency",
+      "C": "14",
+      "D": "0"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1911.03905v1_q2",
+    "question": "What is the difference between disfluency values of cleaned added and cleaned training data?",
+    "mcq_choices": {
+      "A": "14",
+      "B": "9",
+      "C": "5",
+      "D": "23"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1911.03905v1_q3",
+    "question": "Which 2 types of training data have the same disfluency value?",
+    "mcq_choices": {
+      "A": "Cleaned missing and Cleaned",
+      "B": "Cleaned added and Cleaned",
+      "C": "Original and Cleaned added",
+      "D": "Original and Cleaned missing"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "question": "What is the BLEU score of the DCGCN ensemble model without external data?",
+    "mcq_choices": {
+      "A": "53.2",
+      "B": "28.2",
+      "C": "24.2",
+      "D": "55.4"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "question": "What is the BLEU score of the DCGCN single model trained with 0.1M extra parameters?",
+    "mcq_choices": {
+      "A": "54.6",
+      "B": "24.6",
+      "C": "29.0",
+      "D": "55.4"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "question": "Which model gives the highest BLEU score and what is the value?",
+    "mcq_choices": {
+      "A": "54.6",
+      "B": "DCGCN(ensemble), value-35.3",
+      "C": "54.7",
+      "D": "53.2"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "question": "How many Gigaword sentences are parsed as training data in the case of highest B score?",
+    "mcq_choices": {
+      "A": "Direction Aggregation and Graph Attention",
+      "B": "0.3M",
+      "C": "Global Node and Coverage Mechanism",
+      "D": "Linear Combination and Coverage Mechanism"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "question": "What is the C score of the single Seq2SeqB model?",
+    "mcq_choices": {
+      "A": "55.4",
+      "B": "24.2",
+      "C": "53.2",
+      "D": "49.1"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "question": "Which ensemble model gives the least C score?",
+    "mcq_choices": {
+      "A": "Seq2SeqB model",
+      "B": "DCGCN (ours) E",
+      "C": "DCGCN (ours) S",
+      "D": "GGNN2Seq model"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "question": "What is the difference between the C score of our ensemble model and GGNN2Seq ensemble model?",
+    "mcq_choices": {
+      "A": "53.2",
+      "B": "54.7",
+      "C": "54.6",
+      "D": "6.1"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "question": "What is the B score of the single DCGCN model?",
+    "mcq_choices": {
+      "A": "Global Node and Coverage Mechanism",
+      "B": "Linear Combination and Coverage Mechanism",
+      "C": "27.9",
+      "D": "Direction Aggregation and Graph Attention"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "question": "What is the B score of the single BoW+GCN model for English-German translation tasks?",
+    "mcq_choices": {
+      "A": "24.2",
+      "B": "53.2",
+      "C": "55.4",
+      "D": "12.2"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "question": "Which ensemble model gives the least C score for English-German translation tasks?",
+    "mcq_choices": {
+      "A": "54.6",
+      "B": "55.4",
+      "C": "Seq2SeqB",
+      "D": "24.6"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "question": "Which ensemble model gives the least C score for English-Czech translation tasks?",
+    "mcq_choices": {
+      "A": "53.2",
+      "B": "GGNN2Seq",
+      "C": "54.6",
+      "D": "54.7"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "question": "What is the difference of BLEU points between the best single GCN based model and our single model for EnCs task?",
+    "mcq_choices": {
+      "A": "Global Node and Coverage Mechanism",
+      "B": "Linear Combination and Coverage Mechanism",
+      "C": "2.5",
+      "D": "Direction Aggregation and Graph Attention"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "question": "What is the BLEU value for one block DCGCN n=1,m=2",
+    "mcq_choices": {
+      "A": "55.4",
+      "B": "19.2",
+      "C": "24.2",
+      "D": "53.2"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "question": "For what values of n and m is the highest BLEU score observed for one block DCGCN?",
+    "mcq_choices": {
+      "A": "54.6",
+      "B": "n=6,m=6",
+      "C": "55.4",
+      "D": "24.6"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "question": "For what values of n and m is the highest BLEU score observed for two block DCGCN?",
+    "mcq_choices": {
+      "A": "54.6",
+      "B": "54.7",
+      "C": "53.2",
+      "D": "n=3,m=6"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "question": "For what values of n and m is the highest C score observed for two block DCGCN and what is the value?",
+    "mcq_choices": {
+      "A": "Global Node and Coverage Mechanism",
+      "B": "Direction Aggregation and Graph Attention",
+      "C": "n=6,m=3, value-53.4",
+      "D": "Linear Combination and Coverage Mechanism"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "question": "How many layered GCN+RC+LA gives the highest BLEU score?",
+    "mcq_choices": {
+      "A": "9",
+      "B": "55.4",
+      "C": "53.2",
+      "D": "24.2"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "question": "How many layered GCN+RC+LA gives the highest C score?",
+    "mcq_choices": {
+      "A": "10",
+      "B": "24.6",
+      "C": "54.6",
+      "D": "55.4"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "question": "What is the BLEU score of the GCN+RC(6) model?",
+    "mcq_choices": {
+      "A": "19.9",
+      "B": "54.6",
+      "C": "54.7",
+      "D": "53.2"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "question": "Which model has the highest C value?",
+    "mcq_choices": {
+      "A": "DCGCN4 (36)",
+      "B": "Linear Combination and Coverage Mechanism",
+      "C": "Direction Aggregation and Graph Attention",
+      "D": "Global Node and Coverage Mechanism"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "question": "Which model, DCGCN(3) with 18.6M parameters or DCGCN(4) with 18.4M parameters, performs better?",
+    "mcq_choices": {
+      "A": "55.4",
+      "B": "DCGCN(4) with 18.4M parameters",
+      "C": "53.2",
+      "D": "24.2"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "question": "What is the difference of BLEU scores of above models?",
+    "mcq_choices": {
+      "A": "24.6",
+      "B": "1",
+      "C": "54.6",
+      "D": "55.4"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "question": "What is the highest C value observed?",
+    "mcq_choices": {
+      "A": "54.6",
+      "B": "54.7",
+      "C": "53.2",
+      "D": "55.4"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "question": "For the DCGCN(2) model with 12.5M parameters what are the B and C values?",
+    "mcq_choices": {
+      "A": "23.8 and 53.8",
+      "B": "Direction Aggregation and Graph Attention",
+      "C": "Global Node and Coverage Mechanism",
+      "D": "Linear Combination and Coverage Mechanism"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "question": "What is the BLEU value for the DCGCN4 model?",
+    "mcq_choices": {
+      "A": "24.2",
+      "B": "25.5",
+      "C": "55.4",
+      "D": "53.2"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "question": "Removing dense connections in 3rd and 4th block results in what C value?",
+    "mcq_choices": {
+      "A": "55.4",
+      "B": "24.6",
+      "C": "54.6",
+      "D": "54.1"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "question": "For which model is the lowest C value observed?",
+    "mcq_choices": {
+      "A": "{2, 3, 4} dense blocks",
+      "B": "54.6",
+      "C": "54.7",
+      "D": "53.2"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "question": "What is the difference in C score of the DCGCN4 model and the -{4} dense block model?",
+    "mcq_choices": {
+      "A": "Direction Aggregation and Graph Attention",
+      "B": "Linear Combination and Coverage Mechanism",
+      "C": "0.5",
+      "D": "Global Node and Coverage Mechanism"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1908.05957v2_q0",
+    "question": "What is the BLEU score for encoder modules linear combination?",
+    "mcq_choices": {
+      "A": "23.7",
+      "B": "24.2",
+      "C": "53.2",
+      "D": "55.4"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1908.05957v2_q1",
+    "question": "What is the C value for Decoder modules coverage mechanism?",
+    "mcq_choices": {
+      "A": "54.6",
+      "B": "24.6",
+      "C": "55.4",
+      "D": "53.0"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1908.05957v2_q2",
+    "question": "What is the highest C value observed?",
+    "mcq_choices": {
+      "A": "54.6",
+      "B": "53.2",
+      "C": "55.4",
+      "D": "54.7"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1908.05957v2_q3",
+    "question": "Which 2 encoder module models have the same C value?",
+    "mcq_choices": {
+      "A": "Global node and Linear combination",
+      "B": "Linear Combination and Coverage Mechanism",
+      "C": "Direction Aggregation and Graph Attention",
+      "D": "Global Node and Coverage Mechanism"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the WC value for Glorot initialization?",
+    "mcq_choices": {
+      "A": "57.0",
+      "B": "73.4",
+      "C": "87.5",
+      "D": "70.6"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "question": "On how many tasks does Glorot initialization have highest performance?",
+    "mcq_choices": {
+      "A": "90.0",
+      "B": "2",
+      "C": "90.0",
+      "D": "90.0"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "question": "On which task N (0, 0.1) and our paper initialization have the same performance?",
+    "mcq_choices": {
+      "A": "3",
+      "B": "2",
+      "C": "0",
+      "D": "SubjNum"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "question": "For which initialization does the SOMO task give the highest value?",
+    "mcq_choices": {
+      "A": "N(0,0.1)",
+      "B": "4",
+      "C": "3",
+      "D": "6"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the WC value for H-CMOW method for 400 dimensional word embedding?",
+    "mcq_choices": {
+      "A": "73.4",
+      "B": "87.5",
+      "C": "38.2",
+      "D": "70.6"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "question": "What is the only task at which CBOW gives better performance than CMOW?",
+    "mcq_choices": {
+      "A": "90.0",
+      "B": "90.0",
+      "C": "90.0",
+      "D": "Word content memorization"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "question": "What is the highest WC value observed?",
+    "mcq_choices": {
+      "A": "89.5",
+      "B": "2",
+      "C": "0",
+      "D": "3"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "question": "What are the highest TopConst and SOMO values observed?",
+    "mcq_choices": {
+      "A": "4",
+      "B": "3",
+      "C": "6",
+      "D": "74.3 and 50.7"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the SICK-R value for CMOW method for 784 dimensional word embedding?",
+    "mcq_choices": {
+      "A": "76.2",
+      "B": "87.5",
+      "C": "73.4",
+      "D": "70.6"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "question": "On which downstream tasks does the CBOW method have the highest score?",
+    "mcq_choices": {
+      "A": "90.0",
+      "B": "90.0",
+      "C": "90.0",
+      "D": "CR,MR,SICK-R"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "question": "Which model gives the best performance on SUBJ task?",
+    "mcq_choices": {
+      "A": "0",
+      "B": "2",
+      "C": "3",
+      "D": "Hybrid"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "question": "On which downstream task do 2 methods give the same performance?",
+    "mcq_choices": {
+      "A": "6",
+      "B": "MPQA",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the STS16 score for the CMOW model?",
+    "mcq_choices": {
+      "A": "87.5",
+      "B": "70.6",
+      "C": "52.2",
+      "D": "73.4"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "question": "What is the relative change with respect to hybrid for CBOW model on STS13 downstream task?",
+    "mcq_choices": {
+      "A": "90.0",
+      "B": "90.0",
+      "C": "90.0",
+      "D": "-8%"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "question": "What is the relative change with respect to hybrid for CMOW model on STS14 downstream task?",
+    "mcq_choices": {
+      "A": "+42.4%",
+      "B": "2",
+      "C": "0",
+      "D": "3"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "question": "On which unsupervised downstream tasks does CBOW method give the best performance?",
+    "mcq_choices": {
+      "A": "STS13,STS14 and STS15",
+      "B": "6",
+      "C": "3",
+      "D": "4"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the SICK-R value for Glorot initialization?",
+    "mcq_choices": {
+      "A": "73.4",
+      "B": "73.6",
+      "C": "70.6",
+      "D": "87.5"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "question": "On how many tasks does our paper initialization have highest performance?",
+    "mcq_choices": {
+      "A": "90.0",
+      "B": "7",
+      "C": "90.0",
+      "D": "90.0"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "question": "On which task N (0, 0.1) and Glorot initialization have the same performance?",
+    "mcq_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "SST5",
+      "D": "0"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "question": "What is the highest TREC score observed and for which initialization?",
+    "mcq_choices": {
+      "A": "3",
+      "B": "88.4 for Glorot initialization",
+      "C": "6",
+      "D": "4"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the STS16 value for the CMOW-C method?",
+    "mcq_choices": {
+      "A": "70.6",
+      "B": "73.4",
+      "C": "87.5",
+      "D": "41.6"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "question": "On which unsupervised downstream tasks does CBOW-C and CBOW-R have the same value?",
+    "mcq_choices": {
+      "A": "90.0",
+      "B": "STS12",
+      "C": "90.0",
+      "D": "90.0"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "question": "What is the value observed in the above question?",
+    "mcq_choices": {
+      "A": "2",
+      "B": "3",
+      "C": "0",
+      "D": "43.5"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "question": "For which method is the highest STS15 value observed?",
+    "mcq_choices": {
+      "A": "4",
+      "B": "6",
+      "C": "3",
+      "D": "CBOW-C"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the WC value for CMOW-R method?",
+    "mcq_choices": {
+      "A": "73.4",
+      "B": "72.9",
+      "C": "87.5",
+      "D": "70.6"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "question": "What is the highest SOMO value observed?",
+    "mcq_choices": {
+      "A": "50.7",
+      "B": "90.0",
+      "C": "90.0",
+      "D": "90.0"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "question": "On how many linguistic probing tasks does CMOW-C perform better than CMOW-R?",
+    "mcq_choices": {
+      "A": "2",
+      "B": "2",
+      "C": "3",
+      "D": "0"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "question": "On how many linguistic probing tasks does CBOW-R perform better than CBOW-C?",
+    "mcq_choices": {
+      "A": "3",
+      "B": "3",
+      "C": "4",
+      "D": "6"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1902.06423v1_q0",
+    "question": "What is the SICK-E value for the CMOW-R method?",
+    "mcq_choices": {
+      "A": "73.4",
+      "B": "87.5",
+      "C": "70.6",
+      "D": "77.2"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1902.06423v1_q1",
+    "question": "What is the highest MPQA value observed?",
+    "mcq_choices": {
+      "A": "90.0",
+      "B": "87.5",
+      "C": "90.0",
+      "D": "90.0"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1902.06423v1_q2",
+    "question": "On how many supervised downstream tasks does CMOW-C perform better than CMOW-R?",
+    "mcq_choices": {
+      "A": "3",
+      "B": "0",
+      "C": "1",
+      "D": "2"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1902.06423v1_q3",
+    "question": "On how many supervised downstream tasks does CBOW-R perform better than CBOW-C?",
+    "mcq_choices": {
+      "A": "5",
+      "B": "6",
+      "C": "4",
+      "D": "3"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1905.07189v2_q0",
+    "question": "What is the value of MISC under the In E+ setting for MIL system?",
+    "mcq_choices": {
+      "A": "35.87",
+      "B": "53.61",
+      "C": "37.42",
+      "D": "38.91"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1905.07189v2_q1",
+    "question": "Under All setting highest error for LOC was observed for which system?",
+    "mcq_choices": {
+      "A": "Name matching",
+      "B": "MIL-ND (model 2)",
+      "C": "τMIL-ND (model 2)",
+      "D": "Name matching system"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1905.07189v2_q2",
+    "question": "What is the value of ORG under the All setting for the MIL-ND system?",
+    "mcq_choices": {
+      "A": "38.91",
+      "B": "37.42 ±0.35",
+      "C": "42.90 ±0.59",
+      "D": "77.15"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1905.07189v2_q3",
+    "question": "Under In E+ setting lowest error for PER was observed for which system?",
+    "mcq_choices": {
+      "A": "MIL (model 1)",
+      "B": "τMIL-ND (model 2)",
+      "C": "MIL-ND (model 2)",
+      "D": "Supervised learning"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1905.07189v2_q0",
+    "question": "What is the value of R under the In E+ setting for the MIL(model 1) system?",
+    "mcq_choices": {
+      "A": "37.42",
+      "B": "38.91",
+      "C": "69.38",
+      "D": "35.87"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1905.07189v2_q1",
+    "question": "Under All setting highest value for R was observed for which system?",
+    "mcq_choices": {
+      "A": "MIL-ND (model 2)",
+      "B": "Supervised learning",
+      "C": "Name matching",
+      "D": "τMIL-ND (model 2)"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1905.07189v2_q2",
+    "question": "What is the value of F1 under the In E+ setting for the MIL-ND(model 2) system?",
+    "mcq_choices": {
+      "A": "38.91",
+      "B": "72.50 ±0.68",
+      "C": "42.90 ±0.59",
+      "D": "37.42 ±0.35"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1905.07189v2_q3",
+    "question": "Under In E+ setting lowest value for P was observed for which system?",
+    "mcq_choices": {
+      "A": "MIL (model 1)",
+      "B": "MIL-ND (model 2)",
+      "C": "τMIL-ND (model 2)",
+      "D": "Name matching"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1909.00352v1_q0",
+    "question": "When the premise is generated, what is the CON value for the S2S model?",
+    "mcq_choices": {
+      "A": "48.24",
+      "B": "11.17",
+      "C": "47.34",
+      "D": "48.67"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1909.00352v1_q1",
+    "question": "For GEN->REF, what is the ENT value for the G2S-GIN model?",
+    "mcq_choices": {
+      "A": "76.27",
+      "B": "S2S",
+      "C": "G2S-GAT",
+      "D": "G2S-GIN"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1909.00352v1_q2",
+    "question": "When the hypothesis is generated, what is the NEU value for the G2S-GAT model?",
+    "mcq_choices": {
+      "A": "47.34 and 37.14",
+      "B": "13.92",
+      "C": "48.67 and 33.64",
+      "D": "48.66 and 34.06"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1909.00352v1_q3",
+    "question": "What is the lowest contradiction average percentage, when premise is generated?",
+    "mcq_choices": {
+      "A": "48.67",
+      "B": "48.24",
+      "C": "48.66",
+      "D": "8.09"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1909.00352v1_q0",
+    "question": "What is the BLEU score for the test set of LDC2015E86 on Cao et al. model?",
+    "mcq_choices": {
+      "A": "23.5",
+      "B": "48.24",
+      "C": "48.67",
+      "D": "47.34"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1909.00352v1_q1",
+    "question": "What is the METEOR score for the test set of LDC2015E86 on the Damonte et al. model?",
+    "mcq_choices": {
+      "A": "G2S-GIN",
+      "B": "23.6",
+      "C": "G2S-GAT",
+      "D": "S2S"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1909.00352v1_q2",
+    "question": "Which among our models performs the best on the LDC2015E86 test dataset?",
+    "mcq_choices": {
+      "A": "48.67 and 33.64",
+      "B": "G2S-GGNN model",
+      "C": "48.66 and 34.06",
+      "D": "47.34 and 37.14"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1909.00352v1_q3",
+    "question": "What are the BLEU and METEOR scores achieved by the G2S-GGNN model for the LDC2017T10 test dataset?",
+    "mcq_choices": {
+      "A": "48.67",
+      "B": "48.66",
+      "C": "48.24",
+      "D": "BLEU score- 27.87± 0.15, METEOR score- 33.21 ± 0.15"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1909.00352v1_q0",
+    "question": "What is the BLEU score for Konstas et al. model?",
+    "mcq_choices": {
+      "A": "48.24",
+      "B": "48.67",
+      "C": "47.34",
+      "D": "27.4"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1909.00352v1_q1",
+    "question": "Models are trained on how many additional Gigaword data?",
+    "mcq_choices": {
+      "A": "200K",
+      "B": "G2S-GAT",
+      "C": "S2S",
+      "D": "G2S-GIN"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1909.00352v1_q2",
+    "question": "Which baseline model achieves the highest BLEU score?",
+    "mcq_choices": {
+      "A": "48.67 and 33.64",
+      "B": "48.66 and 34.06",
+      "C": "Guo et al. (2019)",
+      "D": "47.34 and 37.14"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1909.00352v1_q3",
+    "question": "What is the BLEU score achieved by our model?",
+    "mcq_choices": {
+      "A": "32.23",
+      "B": "48.67",
+      "C": "48.66",
+      "D": "48.24"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1909.00352v1_q0",
+    "question": "What is the BLEU score for biLSTM model?",
+    "mcq_choices": {
+      "A": "47.34",
+      "B": "48.67",
+      "C": "22.50",
+      "D": "48.24"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1909.00352v1_q1",
+    "question": "What are the number of parameters used in the GEt + biLSTM model?",
+    "mcq_choices": {
+      "A": "G2S-GIN",
+      "B": "G2S-GAT",
+      "C": "S2S",
+      "D": "59.6M"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1909.00352v1_q2",
+    "question": "Which model gives the highest BLEU score?",
+    "mcq_choices": {
+      "A": "48.66 and 34.06",
+      "B": "GEt + GEb + biLSTM",
+      "C": "47.34 and 37.14",
+      "D": "48.67 and 33.64"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1909.00352v1_q3",
+    "question": "What is the least METEOR score observed?",
+    "mcq_choices": {
+      "A": "48.67",
+      "B": "48.24",
+      "C": "48.66",
+      "D": "30.42"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1909.00352v1_q0",
+    "question": "Which model has the best performance for graph diameters in range 7-13?",
+    "mcq_choices": {
+      "A": "47.34",
+      "B": "48.67",
+      "C": "G2S-GGNN model",
+      "D": "48.24"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1909.00352v1_q1",
+    "question": "As the sentence length is increasing, the performance decreases or increases?",
+    "mcq_choices": {
+      "A": "G2S-GAT",
+      "B": "Decreases",
+      "C": "G2S-GIN",
+      "D": "S2S"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1909.00352v1_q2",
+    "question": "What is the highest METEOR score observed for Max Node Out-degree of 4-8?",
+    "mcq_choices": {
+      "A": "33.1 +10.4%",
+      "B": "48.67 and 33.64",
+      "C": "48.66 and 34.06",
+      "D": "47.34 and 37.14"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1909.00352v1_q3",
+    "question": "What is the highest METEOR score observed?",
+    "mcq_choices": {
+      "A": "48.67",
+      "B": "48.66",
+      "C": "37.9 +8.5%",
+      "D": "48.24"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1909.00352v1_q0",
+    "question": "What is the MISS value for the S2S model?",
+    "mcq_choices": {
+      "A": "37.14",
+      "B": "47.34",
+      "C": "48.67",
+      "D": "48.24"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1909.00352v1_q1",
+    "question": "What is the least MISS value observed?",
+    "mcq_choices": {
+      "A": "GOLD",
+      "B": "S2S",
+      "C": "G2S-GAT",
+      "D": "G2S-GIN"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1909.00352v1_q2",
+    "question": "What are the ADDED and MISS values observed for the GOLD model?",
+    "mcq_choices": {
+      "A": "48.67 and 33.64",
+      "B": "47.34 and 37.14",
+      "C": "48.66 and 34.06",
+      "D": "50.77 and 28.35"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1909.00352v1_q3",
+    "question": "What is the highest ADDED value observed?",
+    "mcq_choices": {
+      "A": "48.24",
+      "B": "48.66",
+      "C": "48.67",
+      "D": "50.77"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1801.07772v1_q0",
+    "question": "What is the POS tagging accuracy for Ar language?",
+    "mcq_choices": {
+      "A": "88.7",
+      "B": "87.9",
+      "C": "88.2",
+      "D": "87.8"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1801.07772v1_q1",
+    "question": "What is the SEM tagging accuracy for Es language?",
+    "mcq_choices": {
+      "A": "81.9",
+      "B": "92.4",
+      "C": "86.1",
+      "D": "87.9"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1801.07772v1_q2",
+    "question": "For which language has the highest POS tagging accuracy observed?",
+    "mcq_choices": {
+      "A": "Es",
+      "B": "92.0",
+      "C": "91.9",
+      "D": "92.4"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1801.07772v1_q3",
+    "question": "What are the POS and SEM tagging accuracy of Ru?",
+    "mcq_choices": {
+      "A": "87.4",
+      "B": "88.6 and 85.8",
+      "C": "93.2",
+      "D": "92.9"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1801.07772v1_q0",
+    "question": "What is the POS tagging accuracy for MFT?",
+    "mcq_choices": {
+      "A": "87.8",
+      "B": "91.95",
+      "C": "87.9",
+      "D": "88.2"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1801.07772v1_q1",
+    "question": "What is the SEM tagging accuracy for a classifier using unsupervised word embeddings?",
+    "mcq_choices": {
+      "A": "92.4",
+      "B": "81.11",
+      "C": "81.9",
+      "D": "87.9"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1801.07772v1_q2",
+    "question": "What is the POS tagging accuracy for a classifier using upper bound encoder-decoder?",
+    "mcq_choices": {
+      "A": "92.4",
+      "B": "92.0",
+      "C": "95.55",
+      "D": "91.9"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1801.07772v1_q3",
+    "question": "What is the least POS tagging accuracy observed?",
+    "mcq_choices": {
+      "A": "87.4",
+      "B": "87.06",
+      "C": "92.9",
+      "D": "93.2"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1801.07772v1_q0",
+    "question": "What is the POS tagging accuracy for the 2nd encoding layer for Ar language?",
+    "mcq_choices": {
+      "A": "87.9",
+      "B": "87.8",
+      "C": "88.2",
+      "D": ""
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1801.07772v1_q1",
+    "question": "For which encoding layer highest POS tagging accuracy for Ar language is achieved?",
+    "mcq_choices": {
+      "A": "81.9",
+      "B": "87.9",
+      "C": "92.4",
+      "D": "1st layer"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1801.07772v1_q2",
+    "question": "What is the highest SEM tagging accuracy for the En language?",
+    "mcq_choices": {
+      "A": "91.9",
+      "B": "84.5",
+      "C": "92.4",
+      "D": "92.0"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1801.07772v1_q3",
+    "question": "What is the SEM tagging accuracy for the 3rd encoding layer for Zh language?",
+    "mcq_choices": {
+      "A": "87.4",
+      "B": "87.3",
+      "C": "92.9",
+      "D": "93.2"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1801.07772v1_q0",
+    "question": "What is the POS tagging accuracy for 2nd layer Unidirectional NMT encoder?",
+    "mcq_choices": {
+      "A": "88.2",
+      "B": "87.8",
+      "C": "87.9",
+      "D": "91.7"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1801.07772v1_q1",
+    "question": "What is the highest POS tagging accuracy in Bidirectional NMT encoder?",
+    "mcq_choices": {
+      "A": "81.9",
+      "B": "93.3",
+      "C": "87.9",
+      "D": "92.4"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1801.07772v1_q2",
+    "question": "What is the highest SEM tagging accuracy in Residual NMT encoder?",
+    "mcq_choices": {
+      "A": "91.9",
+      "B": "88.5",
+      "C": "92.0",
+      "D": "92.4"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1801.07772v1_q3",
+    "question": "What is the SEM value under column name 3 for row name Bi?",
+    "mcq_choices": {
+      "A": "87.4",
+      "B": "91.9",
+      "C": "92.9",
+      "D": "93.2"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1808.06640v2_q0",
+    "question": "What is the difference between the attacker score and the corresponding adversary’s accuracy for DIAL data sentiment Task?",
+    "mcq_choices": {
+      "A": "64.5",
+      "B": "59.3",
+      "C": "54.8",
+      "D": "12.2"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1808.06640v2_q1",
+    "question": "What is the protected attribute for ∆ of 8.1?",
+    "mcq_choices": {
+      "A": "67.8",
+      "B": "Gender",
+      "C": "59.3",
+      "D": "54.8"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1808.06640v2_q2",
+    "question": "For PAN16 data, mention task, what is the highest ∆?",
+    "mcq_choices": {
+      "A": "107.1",
+      "B": "9.7",
+      "C": "114.3",
+      "D": "127.8"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1808.06640v2_q3",
+    "question": "Mention how many unique protected attributes are there in DIAL data?",
+    "mcq_choices": {
+      "A": "64.7",
+      "B": "5.0",
+      "C": "1",
+      "D": "56.0"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1808.06640v2_q0",
+    "question": "For DIAL data, sentiment task what is the accuracy achieved?",
+    "mcq_choices": {
+      "A": "59.3",
+      "B": "54.8",
+      "C": "64.5",
+      "D": "67.4"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1808.06640v2_q1",
+    "question": "For DIAL data what is the highest accuracy achieved?",
+    "mcq_choices": {
+      "A": "54.8",
+      "B": "59.3",
+      "C": "67.8",
+      "D": "83.9"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1808.06640v2_q2",
+    "question": "For the PAN16 data, age task what is the accuracy achieved?",
+    "mcq_choices": {
+      "A": "107.1",
+      "B": "127.8",
+      "C": "64.8",
+      "D": "114.3"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1808.06640v2_q3",
+    "question": "For PAN16 data, for which task is the highest accuracy achieved?",
+    "mcq_choices": {
+      "A": "56.0",
+      "B": "64.7",
+      "C": "5.0",
+      "D": "Mention task"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1808.06640v2_q0",
+    "question": "For DIAL data what is the balanced task acc?",
+    "mcq_choices": {
+      "A": "59.3",
+      "B": "67.4",
+      "C": "64.5",
+      "D": "54.8"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1808.06640v2_q1",
+    "question": "For PAN16 data what is the unbalanced leakage for the protected attribute age?",
+    "mcq_choices": {
+      "A": "59.3",
+      "B": "59.7",
+      "C": "67.8",
+      "D": "54.8"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1808.06640v2_q2",
+    "question": "Mention all the unique protected attributes?",
+    "mcq_choices": {
+      "A": "Race,gender,age",
+      "B": "127.8",
+      "C": "107.1",
+      "D": "114.3"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1808.06640v2_q3",
+    "question": "What is the highest unbalanced task acc value?",
+    "mcq_choices": {
+      "A": "86.0",
+      "B": "5.0",
+      "C": "64.7",
+      "D": "56.0"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1808.06640v2_q0",
+    "question": "What is the highest difference between the attacker score and the corresponding adversary’s accuracy?",
+    "mcq_choices": {
+      "A": "64.5",
+      "B": "59.3",
+      "C": "9.2",
+      "D": "54.8"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1808.06640v2_q1",
+    "question": "What is the least task acc value observed?",
+    "mcq_choices": {
+      "A": "64.7",
+      "B": "54.8",
+      "C": "59.3",
+      "D": "67.8"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1808.06640v2_q2",
+    "question": "What are all unique tasks?",
+    "mcq_choices": {
+      "A": "127.8",
+      "B": "114.3",
+      "C": "sentiment, mention",
+      "D": "107.1"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1808.06640v2_q3",
+    "question": "What is the leakage value for mention task under DIAL data?",
+    "mcq_choices": {
+      "A": "63.1",
+      "B": "56.0",
+      "C": "5.0",
+      "D": "64.7"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1808.06640v2_q0",
+    "question": "What is the value of RNN row and guarded embedding column?",
+    "mcq_choices": {
+      "A": "64.5",
+      "B": "67.8",
+      "C": "59.3",
+      "D": "54.8"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1808.06640v2_q1",
+    "question": "Under leaky column what is the highest value?",
+    "mcq_choices": {
+      "A": "64.5",
+      "B": "54.8",
+      "C": "59.3",
+      "D": "67.8"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1808.06640v2_q2",
+    "question": "What is the sum of all values in the table?",
+    "mcq_choices": {
+      "A": "107.1",
+      "B": "246.4",
+      "C": "127.8",
+      "D": "114.3"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1905.13324v1_q0",
+    "question": "What is the test perplexity on the PTB language modeling task under finetune column for ATR model?",
+    "mcq_choices": {
+      "A": "65.86",
+      "B": "89.35",
+      "C": "161K",
+      "D": "192K"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1905.13324v1_q1",
+    "question": "What is the test perplexity on the WT2 language modeling task under dynamic column for SRU model?",
+    "mcq_choices": {
+      "A": "90.94",
+      "B": "89.35",
+      "C": "88.46",
+      "D": "57.97"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1905.13324v1_q2",
+    "question": "Which model has the best performance on the WT2 language modeling task under dynamic column?",
+    "mcq_choices": {
+      "A": "245K",
+      "B": "192K",
+      "C": "LSTM",
+      "D": "90.94"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1905.13324v1_q3",
+    "question": "Which model has the best performance on the PTB language modeling task under finetune column?",
+    "mcq_choices": {
+      "A": "89.61",
+      "B": "245K",
+      "C": "192K",
+      "D": "LRN"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1905.13324v1_q0",
+    "question": "What is the test accuracy for the layer normalization model, under the time column for GRU?",
+    "mcq_choices": {
+      "A": "161K",
+      "B": "192K",
+      "C": "89.35",
+      "D": "0.419"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1905.13324v1_q1",
+    "question": "What is the test accuracy for the BERT model, under the ACC column for SRU?",
+    "mcq_choices": {
+      "A": "88.46",
+      "B": "90.94",
+      "C": "89.98",
+      "D": "89.35"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1905.13324v1_q2",
+    "question": "What is the highest test accuracy for the base model under the ACC column?",
+    "mcq_choices": {
+      "A": "245K",
+      "B": "90.94",
+      "C": "85.71",
+      "D": "192K"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1905.13324v1_q3",
+    "question": "For which model is the highest test accuracy observed under +LN+BERT under time column?",
+    "mcq_choices": {
+      "A": "LSTM",
+      "B": "192K",
+      "C": "245K",
+      "D": "89.61"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1905.13324v1_q0",
+    "question": "What is the test error for the AmaPolar model, under the time column for GRU?",
+    "mcq_choices": {
+      "A": "161K",
+      "B": "89.35",
+      "C": "192K",
+      "D": "0.948"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1905.13324v1_q1",
+    "question": "What is the test error for the AmaFull model, under the ERR column for ATR?",
+    "mcq_choices": {
+      "A": "90.94",
+      "B": "89.35",
+      "C": "88.46",
+      "D": "38.54"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1905.13324v1_q2",
+    "question": "What is the least test error for the Yahoo model under the ERR column?",
+    "mcq_choices": {
+      "A": "245K",
+      "B": "90.94",
+      "C": "192K",
+      "D": "24.62"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1905.13324v1_q3",
+    "question": "Which model has the best performance for YelpPolar under ERR column?",
+    "mcq_choices": {
+      "A": "192K",
+      "B": "GRU",
+      "C": "245K",
+      "D": "89.61"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1905.13324v1_q0",
+    "question": "Which model takes the least time to decode one sentence measured on the newstest2014 dataset?",
+    "mcq_choices": {
+      "A": "161K",
+      "B": "192K",
+      "C": "89.35",
+      "D": "ATR"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1905.13324v1_q1",
+    "question": "What is the BLEU score for the GRU model?",
+    "mcq_choices": {
+      "A": "90.94",
+      "B": "89.35",
+      "C": "26.28",
+      "D": "88.46"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1905.13324v1_q2",
+    "question": "What is the least time per training batch measured from 0.2k training steps on Tesla P100?",
+    "mcq_choices": {
+      "A": "0.99",
+      "B": "245K",
+      "C": "90.94",
+      "D": "192K"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1905.13324v1_q3",
+    "question": "What is the #Params value for the oLRN model?",
+    "mcq_choices": {
+      "A": "89.61",
+      "B": "192K",
+      "C": "164M",
+      "D": "245K"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1905.13324v1_q0",
+    "question": "What is the Exact match/F1-score in the results published by Wang et al. (2017) for the base model?",
+    "mcq_choices": {
+      "A": "71.1/79.5",
+      "B": "161K",
+      "C": "89.35",
+      "D": "192K"
+    },
+    "answer": "A"
+  },
+  {
+    "id": "1905.13324v1_q1",
+    "question": "What is the #Params value for the LRN model?",
+    "mcq_choices": {
+      "A": "88.46",
+      "B": "2.14M",
+      "C": "90.94",
+      "D": "89.35"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1905.13324v1_q2",
+    "question": "After integrating Elmo, which model gives the highest Exact match/F1-score?",
+    "mcq_choices": {
+      "A": "192K",
+      "B": "90.94",
+      "C": "LRN",
+      "D": "245K"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1905.13324v1_q3",
+    "question": "What is the Exact match/F1-score for the ATR base model?",
+    "mcq_choices": {
+      "A": "89.61",
+      "B": "245K",
+      "C": "69.73/78.70",
+      "D": "192K"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1905.13324v1_q0",
+    "question": "What is the F1 score achieved for the SRU model?",
+    "mcq_choices": {
+      "A": "161K",
+      "B": "89.35",
+      "C": "88.89",
+      "D": "192K"
+    },
+    "answer": "C"
+  },
+  {
+    "id": "1905.13324v1_q1",
+    "question": "What is the #Params value for the LRN model ?",
+    "mcq_choices": {
+      "A": "90.94",
+      "B": "129K",
+      "C": "89.35",
+      "D": "88.46"
+    },
+    "answer": "B"
+  },
+  {
+    "id": "1905.13324v1_q2",
+    "question": "Which model performed better, LSTM or GRU?",
+    "mcq_choices": {
+      "A": "245K",
+      "B": "90.94",
+      "C": "192K",
+      "D": "LSTM"
+    },
+    "answer": "D"
+  },
+  {
+    "id": "1905.13324v1_q3",
+    "question": "What is the F1 score reported by Lample et al., 2016?",
+    "mcq_choices": {
+      "A": "245K",
+      "B": "192K",
+      "C": "89.61",
+      "D": "90.94"
+    },
+    "answer": "D"
+  }
+]
